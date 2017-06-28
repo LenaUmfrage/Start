@@ -1,0 +1,3801 @@
+.jfk-butterBar {
+	border-width: 0px; border-style: solid; padding: 0px; border-radius: 2px; transition:0s linear 1s, opacity 1s; height: 0px; text-align: center; overflow: hidden; font-size: 11px; visibility: hidden; opacity: 0; box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+.jfk-butterBar-info {
+	border-color: rgb(240, 195, 109); color: rgb(51, 51, 51); background-color: rgb(249, 237, 190);
+}
+.jfk-butterBar-error {
+	border-color: rgb(32, 32, 32); color: rgb(255, 255, 255); background-color: rgb(72, 72, 72);
+}
+.jfk-butterBar-promo {
+	border-color: rgb(77, 144, 240); color: rgb(51, 51, 51); background-color: rgb(214, 233, 248);
+}
+.jfk-butterBar-warning {
+	border-color: rgb(96, 32, 25); color: rgb(255, 255, 255); background-color: rgb(221, 75, 57);
+}
+.jfk-butterBar-shown {
+	border-width: 1px; padding: 6px 16px; transition:opacity 0.218s; height: auto; visibility: visible; min-height: 14px; opacity: 1;
+}
+.jfk-butterBar-shown.jfk-butterBar-mini {
+	padding: 2px 16px;
+}
+.docs-butterbar-container {
+	top: 23px; width: 100%; height: 0px; text-align: center; font-weight: bold; position: absolute; z-index: 999;
+}
+.docs-butterbar-container-compact.docs-butterbar-container {
+	top: 20px;
+}
+.docs-butterbar-wrap {
+	padding-bottom: 5px; display: inline-block;
+}
+.docs-butterbar-link {
+	color: rgb(102, 102, 102); text-decoration: underline; cursor: pointer;
+}
+a.docs-butterbar-link:link {
+	color: rgb(102, 102, 102); text-decoration: underline; cursor: pointer;
+}
+a.docs-butterbar-link:visited {
+	color: rgb(102, 102, 102); text-decoration: underline; cursor: pointer;
+}
+.docs-butterbar-link-no-pad {
+	color: rgb(102, 102, 102); text-decoration: underline; cursor: pointer;
+}
+a.docs-butterbar-link-no-pad:link {
+	color: rgb(102, 102, 102); text-decoration: underline; cursor: pointer;
+}
+a.docs-butterbar-link-no-pad:visited {
+	color: rgb(102, 102, 102); text-decoration: underline; cursor: pointer;
+}
+.docs-butterbar-link {
+	padding-left: 6px;
+}
+a.docs-butterbar-link:link {
+	padding-left: 6px;
+}
+a.docs-butterbar-link:visited {
+	padding-left: 6px;
+}
+.jfk-butterBar-warning .docs-butterbar-link {
+	color: rgb(17, 17, 17);
+}
+.jfk-butterBar-warning a.docs-butterbar-link:link {
+	color: rgb(17, 17, 17);
+}
+.jfk-butterBar-warning a.docs-butterbar-link:visited {
+	color: rgb(17, 17, 17);
+}
+.jfk-butterBar-warning .docs-butterbar-link-no-pad {
+	color: rgb(17, 17, 17);
+}
+.jfk-butterBar-warning a.docs-butterbar-link-no-pad:link {
+	color: rgb(17, 17, 17);
+}
+.jfk-butterBar-warning a.docs-butterbar-link-no-pad:visited {
+	color: rgb(17, 17, 17);
+}
+.jfk-butterBar-error .docs-butterbar-link {
+	color: rgb(173, 216, 230);
+}
+.jfk-butterBar-error a.docs-butterbar-link:link {
+	color: rgb(173, 216, 230);
+}
+.jfk-butterBar-error a.docs-butterbar-link:visited {
+	color: rgb(173, 216, 230);
+}
+.jfk-butterBar-error .docs-butterbar-link-no-pad {
+	color: rgb(173, 216, 230);
+}
+.jfk-butterBar-error a.docs-butterbar-link-no-pad:link {
+	color: rgb(173, 216, 230);
+}
+.jfk-butterBar-error a.docs-butterbar-link-no-pad:visited {
+	color: rgb(173, 216, 230);
+}
+body {
+	margin: 0px; font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif; background-color: rgb(237, 231, 246);
+}
+body .modal-dialog {
+	font: 13px/normal arial, sans-serif; position: fixed; z-index: 1; font-size-adjust: none; font-stretch: normal;
+}
+body .modal-dialog-bg {
+	font: 13px/normal arial, sans-serif; position: fixed; z-index: 1; font-size-adjust: none; font-stretch: normal;
+}
+.freebird-offscreen {
+	top: -10000px; right: -10000px; position: fixed;
+}
+textarea.quantumWizTextinputPapertextareaInput {
+	-ms-overflow-y: hidden;
+}
+.quantumWizButtonPaperbutton2El2.button-left-align {
+	margin-left: -8px; min-width: 0px;
+}
+.freebirdCommonViewProductnameLockupText {
+	top: -6px; font-family: "Product Sans",Arial,Helvetica,sans-serif; font-size: 22.1px; position: relative; text-rendering: optimizeLegibility;
+}
+.freebirdMaterialComponentsChipChip {
+	font: 400 13px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px 10px 10px 0px; padding: 5px 0px 5px 9px; border-radius: 2px; display: inline-flex; min-height: 24px; font-size-adjust: none; font-stretch: normal; box-shadow: 0px 1px 1px #9e9e9e; justify-content: flex-start; align-items: center; box-align: center; box-pack: start;
+}
+.freebirdMaterialComponentsChipNotRemovable.freebirdMaterialComponentsChipChip {
+	padding-right: 9px;
+}
+.freebirdMaterialComponentsChipChip a {
+	color: inherit; text-decoration: inherit; display: flex; max-width: 100%; align-items: center; box-align: center;
+}
+.freebirdMaterialComponentsChipChipContent {
+	display: flex; max-width: 100%;
+}
+.freebirdMaterialComponentsChipChipText {
+	overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 120px;
+}
+.freebirdMaterialComponentsChipRemoveButton.freebirdMaterialComponentsChipRemoveButton {
+	width: 24px; height: 24px; cursor: pointer; opacity: 0.54;
+}
+.freebirdMaterialComponentsChipRemoveButtonWrapper {
+	margin: 0px 3px; display: flex;
+}
+.freebirdMaterialComponentsChipNotRemovable.freebirdMaterialComponentsChipChip .freebirdMaterialComponentsChipRemoveButtonWrapper {
+	display: none;
+}
+.freebird-qp-icon-add-b {
+	left: 0px; top: -2328px;
+}
+.freebird-qp-icon-add-checkbox-b {
+	left: 0px; top: -3000px;
+}
+.freebird-qp-icon-add-checkbox-w {
+	left: 0px; top: -1584px;
+}
+.freebird-qp-icon-add-collaborators-b {
+	left: 0px; top: -1632px;
+}
+.freebird-qp-icon-add-collaborators-w {
+	left: 0px; top: -912px;
+}
+.freebird-qp-icon-add-dropdown-b {
+	left: 0px; top: -1656px;
+}
+.freebird-qp-icon-add-dropdown-w {
+	left: 0px; top: -1176px;
+}
+.freebird-qp-icon-add-file-upload-b {
+	left: 0px; top: -3648px;
+}
+.freebird-qp-icon-add-file-upload-w {
+	left: 0px; top: -96px;
+}
+.freebird-qp-icon-add-grid-b {
+	left: 0px; top: -1776px;
+}
+.freebird-qp-icon-add-grid-w {
+	left: 0px; top: -4008px;
+}
+.freebird-qp-icon-add-header-b {
+	left: 0px; top: -3312px;
+}
+.freebird-qp-icon-add-header-w {
+	left: 0px; top: -2952px;
+}
+.freebird-qp-icon-add-long-text-b {
+	left: 0px; top: -648px;
+}
+.freebird-qp-icon-add-long-text-w {
+	left: 0px; top: -3216px;
+}
+.freebird-qp-icon-add-person-b {
+	left: 0px; top: -144px;
+}
+.freebird-qp-icon-add-person-w {
+	left: 0px; top: -792px;
+}
+.freebird-qp-icon-add-question-b {
+	left: 0px; top: -3888px;
+}
+.freebird-qp-icon-add-question-w {
+	left: 0px; top: -264px;
+}
+.freebird-qp-icon-add-radio-b {
+	left: 0px; top: -72px;
+}
+.freebird-qp-icon-add-radio-w {
+	left: 0px; top: -3552px;
+}
+.freebird-qp-icon-add-scale-b {
+	left: 0px; top: -576px;
+}
+.freebird-qp-icon-add-scale-w {
+	left: 0px; top: -1992px;
+}
+.freebird-qp-icon-add-short-text-b {
+	left: 0px; top: -744px;
+}
+.freebird-qp-icon-add-short-text-w {
+	left: 0px; top: -1224px;
+}
+.freebird-qp-icon-add-time-b {
+	left: 0px; top: -4080px;
+}
+.freebird-qp-icon-add-time-w {
+	left: 0px; top: -3024px;
+}
+.freebird-qp-icon-add-to-drive-b {
+	left: 0px; top: -1896px;
+}
+.freebird-qp-icon-add-to-drive-w {
+	left: 0px; top: -2064px;
+}
+.freebird-qp-icon-add-w {
+	left: 0px; top: -2352px;
+}
+.freebird-qp-icon-align-center-b {
+	left: 0px; top: -2184px;
+}
+.freebird-qp-icon-align-center-w {
+	left: 0px; top: -2016px;
+}
+.freebird-qp-icon-align-left-b {
+	left: 0px; top: -1944px;
+}
+.freebird-qp-icon-align-left-w {
+	left: 0px; top: -2376px;
+}
+.freebird-qp-icon-align-right-b {
+	left: 0px; top: -3144px;
+}
+.freebird-qp-icon-align-right-w {
+	left: 0px; top: -312px;
+}
+.freebird-qp-icon-arrow-back-b {
+	left: 0px; top: -3816px;
+}
+.freebird-qp-icon-arrow-back-rtl-b {
+	left: 0px; top: -960px;
+}
+.freebird-qp-icon-arrow-back-rtl-w {
+	left: 0px; top: -3912px;
+}
+.freebird-qp-icon-arrow-back-w {
+	left: 0px; top: -216px;
+}
+.freebird-qp-icon-assessment-b {
+	left: 0px; top: -3504px;
+}
+.freebird-qp-icon-assessment-w {
+	left: 0px; top: -2688px;
+}
+.freebird-qp-icon-assignment-b {
+	left: 0px; top: -2520px;
+}
+.freebird-qp-icon-assignment-blue {
+	left: 0px; top: -2616px;
+}
+.freebird-qp-icon-assignment-w {
+	left: 0px; top: -3120px;
+}
+.freebird-qp-icon-barcode-scanner-b {
+	left: 0px; top: -3840px;
+}
+.freebird-qp-icon-barcode-scanner-w {
+	left: 0px; top: -1080px;
+}
+.freebird-qp-icon-calendar-b {
+	left: 0px; top: -2664px;
+}
+.freebird-qp-icon-calendar-w {
+	left: 0px; top: -3240px;
+}
+.freebird-qp-icon-chat-bubble-b {
+	left: 0px; top: -1512px;
+}
+.freebird-qp-icon-chat-bubble-w {
+	left: 0px; top: -3456px;
+}
+.freebird-qp-icon-check-b {
+	left: 0px; top: -696px;
+}
+.freebird-qp-icon-check-green {
+	left: 0px; top: -3864px;
+}
+.freebird-qp-icon-check-small-green {
+	left: 0px; top: -1800px;
+}
+.freebird-qp-icon-check-w {
+	left: 0px; top: -2280px;
+}
+.freebird-qp-icon-clear-b {
+	left: 0px; top: -240px;
+}
+.freebird-qp-icon-clear-red {
+	left: 0px; top: -3384px;
+}
+.freebird-qp-icon-clear-w {
+	left: 0px; top: -3168px;
+}
+.freebird-qp-icon-code-b {
+	left: 0px; top: -3600px;
+}
+.freebird-qp-icon-code-w {
+	left: 0px; top: -2592px;
+}
+.freebird-qp-icon-copy-b {
+	left: 0px; top: -768px;
+}
+.freebird-qp-icon-copy-w {
+	left: 0px; top: -336px;
+}
+.freebird-qp-icon-directions-run-b {
+	left: 0px; top: -1752px;
+}
+.freebird-qp-icon-directions-run-w {
+	left: 0px; top: -1872px;
+}
+.freebird-qp-icon-download-b {
+	left: 0px; top: -2040px;
+}
+.freebird-qp-icon-download-w {
+	left: 0px; top: -888px;
+}
+.freebird-qp-icon-drag-handle-b {
+	left: 0px; top: -4104px;
+}
+.freebird-qp-icon-drag-handle-horz-b {
+	left: 0px; top: -456px;
+}
+.freebird-qp-icon-drag-handle-horz-w {
+	left: 0px; top: -1200px;
+}
+.freebird-qp-icon-drag-handle-vert-b {
+	left: 0px; top: -3192px;
+}
+.freebird-qp-icon-drag-handle-vert-w {
+	left: 0px; top: -360px;
+}
+.freebird-qp-icon-drag-handle-w {
+	left: 0px; top: -3288px;
+}
+.freebird-qp-icon-edit-pencil-b {
+	left: 0px; top: -2256px;
+}
+.freebird-qp-icon-edit-pencil-blue {
+	left: 0px; top: -1440px;
+}
+.freebird-qp-icon-edit-pencil-w {
+	left: 0px; top: -2544px;
+}
+.freebird-qp-icon-email-b {
+	left: 0px; top: -1008px;
+}
+.freebird-qp-icon-email-w {
+	left: 0px; top: -2856px;
+}
+.freebird-qp-icon-embed-b {
+	left: 0px; top: -408px;
+}
+.freebird-qp-icon-embed-w {
+	left: 0px; top: -2928px;
+}
+.freebird-qp-icon-expand-less-b {
+	left: 0px; top: -3936px;
+}
+.freebird-qp-icon-expand-less-red {
+	left: 0px; top: -3792px;
+}
+.freebird-qp-icon-expand-less-w {
+	left: 0px; top: -3672px;
+}
+.freebird-qp-icon-expand-more-b {
+	left: 0px; top: -2496px;
+}
+.freebird-qp-icon-expand-more-red {
+	left: 0px; top: -1848px;
+}
+.freebird-qp-icon-expand-more-w {
+	left: 0px; top: -1344px;
+}
+.freebird-qp-icon-extension-b {
+	left: 0px; top: -2160px;
+}
+.freebird-qp-icon-extension-w {
+	left: 0px; top: -1680px;
+}
+.freebird-qp-icon-eye-b {
+	left: 0px; top: -288px;
+}
+.freebird-qp-icon-eye-w {
+	left: 0px; top: -3768px;
+}
+.freebird-qp-icon-feedback-b {
+	left: 0px; top: -3960px;
+}
+.freebird-qp-icon-feedback-w {
+	left: 0px; top: -3096px;
+}
+.freebird-qp-icon-folder-b {
+	left: 0px; top: -1488px;
+}
+.freebird-qp-icon-folder-w {
+	left: 0px; top: -2904px;
+}
+.freebird-qp-icon-grades-released-b {
+	left: 0px; top: -1416px;
+}
+.freebird-qp-icon-grades-released-w {
+	left: 0px; top: -1296px;
+}
+.freebird-qp-icon-grades-stale-b {
+	left: 0px; top: -2832px;
+}
+.freebird-qp-icon-grades-stale-w {
+	left: 0px; top: -840px;
+}
+.freebird-qp-icon-grades-updated-b {
+	left: 0px; top: -2976px;
+}
+.freebird-qp-icon-grades-updated-w {
+	left: 0px; top: -600px;
+}
+.freebird-qp-icon-help-b {
+	left: 0px; top: -1320px;
+}
+.freebird-qp-icon-help-w {
+	left: 0px; top: -2112px;
+}
+.freebird-qp-icon-image-b {
+	left: 0px; top: -1920px;
+}
+.freebird-qp-icon-image-w {
+	left: 0px; top: -720px;
+}
+.freebird-qp-icon-key-b {
+	left: 0px; top: -2712px;
+}
+.freebird-qp-icon-key-w {
+	left: 0px; top: -2472px;
+}
+.freebird-qp-icon-keyboard-arrow-left-b {
+	left: 0px; top: -384px;
+}
+.freebird-qp-icon-keyboard-arrow-left-w {
+	left: 0px; top: -1368px;
+}
+.freebird-qp-icon-keyboard-arrow-right-b {
+	left: 0px; top: -1392px;
+}
+.freebird-qp-icon-keyboard-arrow-right-w {
+	left: 0px; top: -432px;
+}
+.freebird-qp-icon-keyboard-b {
+	left: 0px; top: -2448px;
+}
+.freebird-qp-icon-keyboard-w {
+	left: 0px; top: -3048px;
+}
+.freebird-qp-icon-link-b {
+	left: 0px; top: -3576px;
+}
+.freebird-qp-icon-link-w {
+	left: 0px; top: -480px;
+}
+.freebird-qp-icon-lock-b {
+	left: 0px; top: -2304px;
+}
+.freebird-qp-icon-lock-small-b {
+	left: 0px; top: -3528px;
+}
+.freebird-qp-icon-lock-small-w {
+	left: 0px; top: -4128px;
+}
+.freebird-qp-icon-lock-w {
+	left: 0px; top: -936px;
+}
+.freebird-qp-icon-maximize-b {
+	left: 0px; top: -1824px;
+}
+.freebird-qp-icon-maximize-w {
+	left: 0px; top: -4032px;
+}
+.freebird-qp-icon-minimize-b {
+	left: 0px; top: -2736px;
+}
+.freebird-qp-icon-minimize-w {
+	left: 0px; top: -1560px;
+}
+.freebird-qp-icon-more-vertical-b {
+	left: 0px; top: -552px;
+}
+.freebird-qp-icon-more-vertical-w {
+	left: 0px; top: -24px;
+}
+.freebird-qp-icon-open-in-new-b {
+	left: 0px; top: -3360px;
+}
+.freebird-qp-icon-open-in-new-w {
+	left: 0px; top: -3624px;
+}
+.freebird-qp-icon-palette-b {
+	left: 0px; top: -2400px;
+}
+.freebird-qp-icon-palette-w {
+	left: 0px; top: -120px;
+}
+.freebird-qp-icon-post-facebook-b {
+	left: 0px; top: -3072px;
+}
+.freebird-qp-icon-post-facebook-w {
+	left: 0px; top: -984px;
+}
+.freebird-qp-icon-post-gplus-b {
+	left: 0px; top: -1152px;
+}
+.freebird-qp-icon-post-gplus-w {
+	left: 0px; top: -2784px;
+}
+.freebird-qp-icon-post-twitter-b {
+	left: 0px; top: -1056px;
+}
+.freebird-qp-icon-post-twitter-w {
+	left: 0px; top: -168px;
+}
+.freebird-qp-icon-print-b {
+	left: 0px; top: -1128px;
+}
+.freebird-qp-icon-print-w {
+	left: 0px; top: -2760px;
+}
+.freebird-qp-icon-question-b {
+	left: 0px; top: -3408px;
+}
+.freebird-qp-icon-question-w {
+	left: 0px; top: 0px;
+}
+.freebird-qp-icon-search-b {
+	left: 0px; top: -1704px;
+}
+.freebird-qp-icon-search-w {
+	left: 0px; top: -48px;
+}
+.freebird-qp-icon-section-b {
+	left: 0px; top: -624px;
+}
+.freebird-qp-icon-section-w {
+	left: 0px; top: -2640px;
+}
+.freebird-qp-icon-select-dropdown-arrow-b {
+	left: 0px; top: -3720px;
+}
+.freebird-qp-icon-select-dropdown-arrow-w {
+	left: 0px; top: -864px;
+}
+.freebird-qp-icon-send-b {
+	left: 0px; top: -1536px;
+}
+.freebird-qp-icon-send-w {
+	left: 0px; top: -1104px;
+}
+.freebird-qp-icon-settings-b {
+	left: 0px; top: -3696px;
+}
+.freebird-qp-icon-settings-w {
+	left: 0px; top: -2136px;
+}
+.freebird-qp-icon-share-b {
+	left: 0px; top: -2568px;
+}
+.freebird-qp-icon-share-w {
+	left: 0px; top: -1032px;
+}
+.freebird-qp-icon-spreadsheet-green {
+	left: 0px; top: -2424px;
+}
+.freebird-qp-icon-star-b {
+	left: 0px; top: -4056px;
+}
+.freebird-qp-icon-star-border-b {
+	left: 0px; top: -2880px;
+}
+.freebird-qp-icon-star-border-w {
+	left: 0px; top: -1272px;
+}
+.freebird-qp-icon-star-w {
+	left: 0px; top: -816px;
+}
+.freebird-qp-icon-title-description-b {
+	left: 0px; top: -672px;
+}
+.freebird-qp-icon-title-description-w {
+	left: 0px; top: -3264px;
+}
+.freebird-qp-icon-trash-b {
+	left: 0px; top: -3432px;
+}
+.freebird-qp-icon-trash-w {
+	left: 0px; top: -2088px;
+}
+.freebird-qp-icon-undo-b {
+	left: 0px; top: -1728px;
+}
+.freebird-qp-icon-undo-rtl-b {
+	left: 0px; top: -2232px;
+}
+.freebird-qp-icon-undo-rtl-w {
+	left: 0px; top: -1608px;
+}
+.freebird-qp-icon-undo-w {
+	left: 0px; top: -504px;
+}
+.freebird-qp-icon-unfold-less-b {
+	left: 0px; top: -3336px;
+}
+.freebird-qp-icon-unfold-less-w {
+	left: 0px; top: -3744px;
+}
+.freebird-qp-icon-unfold-more-b {
+	left: 0px; top: -1464px;
+}
+.freebird-qp-icon-unfold-more-w {
+	left: 0px; top: -1248px;
+}
+.freebird-qp-icon-video-b {
+	left: 0px; top: -2808px;
+}
+.freebird-qp-icon-video-w {
+	left: 0px; top: -192px;
+}
+.freebird-qp-icon-whats-new-b {
+	left: 0px; top: -2208px;
+}
+.freebird-qp-icon-whats-new-w {
+	left: 0px; top: -3480px;
+}
+.freebird-qp-icon-x-small-b {
+	left: 0px; top: -1968px;
+}
+.freebird-qp-icon-x-small-red {
+	left: 0px; top: -528px;
+}
+.freebird-qp-icon-x-small-w {
+	left: 0px; top: -3984px;
+}
+.freebirdMaterialIconIconEl {
+	width: 24px; height: 24px; text-align: left; overflow: hidden; display: inline-block; position: relative; direction: ltr;
+}
+.freebirdMaterialIconIconImage::before {
+	content: url(//ssl.gstatic.com/docs/forms/qp_sprite79.svg);
+}
+.freebirdMaterialIconIconImage {
+	position: absolute;
+}
+.freebirdMaterialIconIconLightIcon {
+	display: none;
+}
+.ds-hc-black .freebirdMaterialIconIconLightIcon {
+	display: block;
+}
+.ds-hc-black .freebirdMaterialIconIconDarkIcon {
+	display: none;
+}
+.quantumWizButtonNestedLink {
+	text-decoration: none; display: block;
+}
+.quantumWizButtonNestedLink:focus {
+	text-decoration: none; display: block;
+}
+.quantumWizButtonPapericonbuttonEl {
+	border-radius: 50%; border: 0px currentColor; transition:background 0.3s; border-image: none; width: 48px; height: 48px; text-align: center; overflow: hidden; display: inline-block; position: relative; z-index: 0; cursor: pointer; -ms-user-select: none;
+}
+.quantumWizButtonPapericonbuttonEl > .exportButtonNestedLink {
+	width: 48px; height: 48px;
+}
+.quantumWizButtonPapericonbuttonBorderless {
+	border-radius: 0px; overflow: visible;
+}
+.quantumWizButtonPapericonbuttonLight {
+	color: rgba(0, 0, 0, 0.54); fill: rgba(0, 0, 0, 0.54);
+}
+.quantumWizButtonPapericonbuttonDark {
+	color: rgba(255, 255, 255, 0.749); fill: rgba(255, 255, 255, 0.749);
+}
+.isFocused.quantumWizButtonPapericonbuttonLight {
+	background-color: rgba(0, 0, 0, 0.12);
+}
+.isFocused.quantumWizButtonPapericonbuttonDark {
+	background-color: rgba(204, 204, 204, 0.251);
+}
+.isFocused.quantumWizButtonPapericonbuttonBorderless {
+	background-color: transparent;
+}
+.quantumWizButtonPapericonbuttonRipple {
+	transition:opacity 0.2s, visibility 0s 0.2s, -webkit-transform 0s 0.2s; left: 0px; top: 0px; visibility: hidden; position: absolute; opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(0); background-size: cover;
+}
+.isFocused.quantumWizButtonPapericonbuttonBorderless .quantumWizButtonPapericonbuttonRipple {
+	animation:quantumWizIconFocusPulse 0.7s infinite alternate; left: 50%; top: 50%; width: 100%; height: 100%; visibility: visible;
+}
+.isActive.quantumWizButtonPapericonbuttonEl .quantumWizButtonPapericonbuttonRipple {
+	visibility: visible; opacity: 1; transform: translate(-50%, -50%) scale(2.2);
+}
+.isUndragged.isActive.quantumWizButtonPapericonbuttonEl .quantumWizButtonPapericonbuttonRipple {
+	transition:transform 0.3s cubic-bezier(0, 0, 0.2, 1), opacity 0.2s cubic-bezier(0, 0, 0.2, 1);
+}
+.isDeactivating.quantumWizButtonPapericonbuttonEl .quantumWizButtonPapericonbuttonRipple {
+	visibility: visible; transform: translate(-50%, -50%) scale(2.2);
+}
+.quantumWizButtonPapericonbuttonLight .quantumWizButtonPapericonbuttonRipple {
+	background-image: radial-gradient(circle farthest-side, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) 80%, rgba(0, 0, 0, 0) 100%);
+}
+.quantumWizButtonPapericonbuttonDark .quantumWizButtonPapericonbuttonRipple {
+	background-image: radial-gradient(circle farthest-side, rgba(204, 204, 204, 0.251), rgba(204, 204, 204, 0.251) 80%, rgba(204, 204, 204, 0) 100%);
+}
+.isDisabled.quantumWizButtonPapericonbuttonEl {
+	color: rgba(0, 0, 0, 0.26); cursor: auto; fill: rgba(0, 0, 0, 0.26);
+}
+.isDisabled.quantumWizButtonPapericonbuttonDark {
+	color: rgba(255, 255, 255, 0.502); fill: rgba(255, 255, 255, 0.502);
+}
+.quantumWizButtonPapericonbuttonContent {
+	top: 50%; position: relative;
+}
+.quantumWizButtonPapericonbuttonContent > span {
+	display: inline-block; position: relative;
+}
+.freebirdMaterialComponentsFeedbackchipFeedbackIcon {
+	width: 24px; height: 24px; padding-right: 10px; opacity: 0.54;
+}
+.freebirdMaterialComponentsFeedbackchipFeedbackText {
+	cursor: pointer; max-width: 180px;
+}
+.freebirdMaterialComponentsFilechipFileChipImage {
+	width: 16px; height: 16px; margin-right: 8px; flex-shrink: 0;
+}
+.freebirdMaterialComponentsFilechipFileChipImage > * {
+	width: 100%; height: 100%;
+}
+.freebirdMaterialComponentsFilechipFileChipLink:hover {
+	text-decoration: underline; cursor: pointer;
+}
+.freebirdMaterialComponentsFilechipFileChipTooltip {
+	display: inline-flex;
+}
+.freebirdMaterialHeaderbannerLabelContainer {
+	display: flex; flex-grow: 1; align-items: stretch; box-align: stretch; box-flex: 1;
+}
+.freebirdMaterialHeaderbannerLabelTextContainer {
+	color: rgb(255, 255, 255); min-width: 0%;
+}
+.freebirdMaterialHeaderbannerPagebreakBanner {
+	flex-grow: 1; box-flex: 1;
+}
+.freebirdMaterialHeaderbannerPagebreakText {
+	font: 500 20px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding: 16px 8px 16px 42px; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdMaterialHeaderbannerDescriptionText {
+	font: 400 14px/135% Roboto, RobotoDraft, Helvetica, Arial, sans-serif; color: rgb(33, 33, 33); margin-top: 13px; white-space: pre-wrap; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdMaterialHeaderbannerSectionText {
+	font: 400 16px/24px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding: 8px 8px 8px 42px; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdMaterialHeaderbannerSectionTriangleContainer {
+	width: 18px; overflow: hidden; position: relative; flex-shrink: 0;
+}
+.freebirdMaterialHeaderbannerSectionTriangle {
+	width: 90%; height: 100%; overflow: visible; position: absolute;
+}
+body[dir='rtl'] .freebirdMaterialHeaderbannerSectionTriangle {
+	transform: rotateY(180deg);
+}
+.freebirdMaterialHeaderbannerSectionTriangle > polygon {
+	stroke-width: 1;
+}
+@media all and (max-width:480px)
+{
+.freebirdMaterialHeaderbannerPagebreakText {
+	padding-left: 30px;
+}
+.freebirdMaterialHeaderbannerSectionText {
+	padding-left: 30px;
+}
+}
+.screenreaderOnly {
+	width: 0px; height: 0px; color: transparent; overflow: hidden; font-size: 0px; visibility: hidden; position: absolute; box-sizing: border-box;
+}
+.freebirdMaterialImageoptionImage {
+	margin: auto; vertical-align: middle; min-height: 0%; max-height: 100%; min-width: 0%; max-width: 100%; box-sizing: border-box;
+}
+.freebirdMaterialImageoptionImageWrapper {
+	margin: 12px 0px; padding: 8px; width: 260px; height: 195px; line-height: 195px; display: flex; outline-width: 0px; align-items: center; align-self: flex-start; box-align: center; -ms-align-self: flex-start;
+}
+.freebirdMaterialImageoptionEmptyImage {
+	margin: 12px 0px; padding: 8px; width: 260px; height: 195px; line-height: 195px; display: flex; outline-width: 0px; align-items: center; align-self: flex-start; background-color: rgb(245, 245, 245); box-align: center; -ms-align-self: flex-start;
+}
+.freebirdMaterialImageoptionImageWrapper {
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12), 0px 1px 3px 0px rgba(0,0,0,0.2); background-color: white;
+}
+.freebirdMaterialImageoptionImageWrapper.freebirdMaterialImageoptionIsSelected {
+	outline-width: 2px;
+}
+.freebirdMaterialImageoptionEmptyImage.freebirdMaterialImageoptionIsSelected {
+	outline-width: 2px;
+}
+@media all and (max-width:660px)
+{
+.freebirdMaterialImageoptionEmptyImage {
+	display: none;
+}
+}
+.freebirdMaterialScalecontentContainer {
+	width: 100%; display: flex;
+}
+.freebirdMaterialScalecontentColumn {
+	text-align: center; display: flex; flex-direction: column; flex-grow: 1; align-items: stretch; box-align: stretch; box-flex: 1; box-orient: vertical;
+}
+.freebirdMaterialScalecontentRangeLabelColumn {
+	text-align: center; display: flex; max-width: 20%; flex-direction: column; flex-grow: 1; align-items: stretch; box-align: stretch; box-flex: 1; box-orient: vertical;
+}
+.freebirdMaterialScalecontentLabel {
+	padding: 0px 5px;
+}
+.freebirdMaterialScalecontentRangeLabel {
+	padding: 0px 5px;
+}
+.freebirdMaterialScalecontentLabel {
+	display: flex; min-height: 3em; justify-content: center; align-items: center; box-align: center; box-pack: center;
+}
+.freebirdMaterialScalecontentRangeLabelContainer {
+	display: flex; min-height: 3em; justify-content: center; align-items: center; box-align: center; box-pack: center;
+}
+.freebirdMaterialScalecontentRangeLabelPlaceholder {
+	display: flex; min-height: 3em; justify-content: center; align-items: center; box-align: center; box-pack: center;
+}
+.freebirdMaterialScalecontentColumn .freebirdMaterialScalecontentInput {
+	display: flex; min-height: 3em; justify-content: center; align-items: center; box-align: center; box-pack: center;
+}
+.freebirdMaterialScalecontentRangeLabel {
+	line-height: 135%; -ms-word-wrap: break-word; min-width: 0%;
+}
+.freebirdMaterialScalecontentColumn .freebirdMaterialScalecontentInput {
+	background-color: rgb(250, 250, 250);
+}
+.freebirdMaterialComponentsTemplatesTemplateModerationBanner {
+	padding: 7px 4px; height: 32px; text-align: center; color: white; font-weight: 500; display: flex; justify-content: center; align-items: center; background-color: rgb(50, 50, 50); box-align: center; box-pack: center;
+}
+.freebirdMaterialComponentsTemplatesTemplateModerationBannerText {
+	font-size: 13px; margin-right: 20px;
+}
+.freebirdMaterialComponentsTemplatesTemplateModerationBanner .freebirdMaterialComponentsTemplatesTemplateModerationButton {
+	color: rgb(161, 194, 250); min-width: 68px;
+}
+.freebirdMaterialComponentsTemplatesTemplateModerationButtonWrapper {
+	display: flex;
+}
+.quantumWizTextinputPaperinputEl {
+	width: 200px; padding-bottom: 8px; display: inline-block; -ms-user-select: none;
+}
+.quantumWizTextinputPaperinputMainContent {
+	height: 40px; vertical-align: top; position: relative;
+}
+.quantumWizTextinputPaperinputContentArea {
+	top: 14px; display: flex; position: relative;
+}
+.quantumWizTextinputPaperinputInputArea {
+	display: flex; position: relative; min-width: 0%; flex-grow: 1; flex-shrink: 1; box-flex: 1;
+}
+.quantumWizTextinputPaperinputContent {
+	height: 24px; line-height: 24px; position: relative; box-sizing: border-box;
+}
+.quantumWizTextinputPaperinputPreContent {
+	padding-right: 12px;
+}
+.quantumWizTextinputPaperinputPostContent {
+	padding-left: 12px;
+}
+.quantumWizTextinputPaperinputInput {
+	font: 400 16px/24px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; padding: 0px; border: currentColor; border-image: none; height: 24px; display: block; z-index: 0; min-width: 0%; font-size-adjust: none; font-stretch: normal; flex-grow: 1; flex-shrink: 1; background-color: transparent; box-flex: 1;
+}
+.quantumWizTextinputPaperinputContentAreaWithEmbeddedContent > .quantumWizTextinputPaperinputInput::-ms-clear {
+	display: none;
+}
+.quantumWizTextinputPaperinputContentAreaWithEmbeddedContent > .quantumWizTextinputPaperinputInput::-ms-reveal {
+	display: none;
+}
+.quantumWizTextinputPaperinputUnderline {
+	margin: 0px; padding: 0px; left: 0px; width: 100%; height: 1px; bottom: -2px; position: absolute; background-color: rgba(0, 0, 0, 0.12);
+}
+.quantumWizTextinputPaperinputFocusUnderline {
+	margin: 0px; padding: 0px; left: 0px; width: 100%; height: 2px; bottom: -2px; position: absolute; transform: scaleX(0); background-color: rgb(66, 133, 244);
+}
+.quantumWizTextinputPaperinputHasError.quantumWizTextinputPaperinputEl .quantumWizTextinputPaperinputUnderline {
+	height: 2px; background-color: rgb(213, 0, 0);
+}
+.quantumWizTextinputPaperinputHasError.quantumWizTextinputPaperinputEl .quantumWizTextinputPaperinputFocusUnderline {
+	height: 2px; background-color: rgb(213, 0, 0);
+}
+[disabled].quantumWizTextinputPaperinputInput {
+	color: rgba(0, 0, 0, 0.38);
+}
+[disabled].quantumWizTextinputPaperinputInput ~ .quantumWizTextinputPaperinputUnderline {
+	background: none; border-bottom-color: rgba(0, 0, 0, 0.38); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.animationInitialized.quantumWizTextinputPaperinputFocusUnderline {
+	animation:quantumWizPaperInputRemoveUnderline 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.isFocused.quantumWizTextinputPaperinputEl .quantumWizTextinputPaperinputFocusUnderline {
+	animation:quantumWizPaperInputAddUnderline 0.3s cubic-bezier(0.4, 0, 0.2, 1); transform: scaleX(1);
+}
+.quantumWizTextinputPaperinputFloatingLabelEnabled.quantumWizTextinputPaperinputEl > .quantumWizTextinputPaperinputMainContent {
+	padding-top: 24px;
+}
+.quantumWizTextinputPaperinputFloatingLabel {
+	font: 400 16px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; transform-origin: left bottom; transition:; left: 0px; width: 100%; bottom: 3px; color: rgba(0, 0, 0, 0.38); position: absolute; font-size-adjust: none; font-stretch: normal; pointer-events: none;
+}
+:not([disabled]).quantumWizTextinputPaperinputInput:focus ~ .quantumWizTextinputPaperinputFloatingLabel {
+	transform: scale(0.75) translateY(-39px);
+}
+[badinput='true'].quantumWizTextinputPaperinputInput ~ .quantumWizTextinputPaperinputFloatingLabel {
+	transform: scale(0.75) translateY(-39px);
+}
+.hasValue.quantumWizTextinputPaperinputEl .quantumWizTextinputPaperinputFloatingLabel {
+	transform: scale(0.75) translateY(-39px);
+}
+.quantumWizTextinputPaperinputAlwaysFloatLabel.quantumWizTextinputPaperinputEl .quantumWizTextinputPaperinputFloatingLabel {
+	transform: scale(0.75) translateY(-39px);
+}
+:not([disabled]).quantumWizTextinputPaperinputInput:focus ~ .quantumWizTextinputPaperinputFloatingLabel {
+	color: rgb(66, 133, 244);
+}
+.quantumWizTextinputPaperinputHasError.quantumWizTextinputPaperinputEl :not([disabled]).quantumWizTextinputPaperinputInput:focus ~ .quantumWizTextinputPaperinputFloatingLabel {
+	color: rgb(213, 0, 0);
+}
+.quantumWizTextinputPaperinputPlaceholder {
+	font: 400 16px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; left: 0px; top: 2px; color: rgba(0, 0, 0, 0.38); overflow: hidden; white-space: nowrap; position: absolute; -ms-text-overflow: ellipsis; max-width: 100%; font-size-adjust: none; font-stretch: normal; pointer-events: none;
+}
+.hasValue.quantumWizTextinputPaperinputEl .quantumWizTextinputPaperinputPlaceholder {
+	display: none;
+}
+.quantumWizTextinputPaperinputCharCounter {
+	font: 400 12px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; height: 16px; padding-top: 8px; padding-left: 16px; margin-left: auto; white-space: nowrap; font-size-adjust: none; font-stretch: normal; opacity: 0.3; pointer-events: none;
+}
+.quantumWizTextinputPaperinputHintOrErrorEnabled.quantumWizTextinputPaperinputEl {
+	padding-bottom: 4px;
+}
+.quantumWizTextinputPaperinputError {
+	font: 400 12px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; flex:1 1 auto; padding-top: 8px; min-height: 16px; font-size-adjust: none; font-stretch: normal;
+}
+:not(:empty).quantumWizTextinputPaperinputHint {
+	font: 400 12px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; flex:1 1 auto; padding-top: 8px; min-height: 16px; font-size-adjust: none; font-stretch: normal;
+}
+.quantumWizTextinputPaperinputCounterErrorHolder {
+	display: flex;
+}
+.quantumWizTextinputPaperinputHint {
+	pointer-events: none;
+}
+.quantumWizTextinputPaperinputError {
+	color: rgb(213, 0, 0);
+}
+.quantumWizTextinputPaperinputHint {
+	opacity: 0.3;
+}
+.quantumWizTextinputPaperinputHasError.quantumWizTextinputPaperinputEl .quantumWizTextinputPaperinputHint {
+	display: none;
+}
+:not(.quantumWizTextinputPaperinputHasError).quantumWizTextinputPaperinputEl :not(:empty).quantumWizTextinputPaperinputHint + .quantumWizTextinputPaperinputError {
+	display: none;
+}
+.ac-renderer {
+	background: rgb(255, 255, 255); font: 13px/normal Arial, sans-serif; border: 1px solid rgb(102, 102, 102); border-image: none; width: 300px; position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.ac-row {
+	padding: 0.4em; cursor: pointer;
+}
+.ac-highlighted {
+	font-weight: bold;
+}
+.ac-active {
+	background-color: rgb(178, 180, 191);
+}
+.freebirdFormviewerViewCaptchaErrorMessage.freebirdFormviewerViewCaptchaErrorMessage {
+	font: 400 16px/135% Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding: 8px 0px 0px 17px; color: rgb(219, 68, 55); display: none; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewCaptchaErrorMessage.freebirdFormviewerViewCaptchaErrorMessage.HasError {
+	display: block;
+}
+.freebirdFormviewerViewFeedbackSubmitFeedbackButton {
+	bottom: 0px; display: inline-block; position: fixed; opacity: 0.54;
+}
+body[dir='rtl'] .freebirdFormviewerViewFeedbackSubmitFeedbackButton {
+	transform: rotateY(180deg);
+}
+.freebirdFormviewerViewFooterDisclaimer {
+	font: 400 12px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 16px 0px; padding: 0px 16px; text-align: center; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewFooterNoTextDecoration a {
+	text-decoration: none;
+}
+.freebirdFormviewerViewFooterDocsDebugInfo {
+	margin-left: 8px; display: inline;
+}
+.freebirdFormviewerViewFooterImageContainer {
+	margin: 24px 0px; text-align: center;
+}
+.freebirdFormviewerViewFooterImageContainer img {
+	border: currentColor; border-image: none;
+}
+.freebirdFormviewerViewFooterImageContainer a {
+	color: black; text-decoration: none; opacity: 0.26;
+}
+.freebirdFormviewerViewFooterPageBreak {
+	page-break-after: always;
+}
+.freebirdFormviewerViewFormContentWrapper {
+	display: flex; flex-direction: column; box-orient: vertical;
+}
+.freebirdFormviewerViewCenteredContent {
+	margin: auto; width: 640px;
+}
+.freebirdFormviewerViewFormCard {
+	margin-bottom: 48px; -ms-word-wrap: break-word; box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.37); background-color: rgb(255, 255, 255);
+}
+:first-of-type.freebirdFormviewerViewFormCard {
+	margin-top: -100px;
+}
+.freebirdFormviewerViewNotificationsContainer + .freebirdFormviewerViewCenteredContent :first-of-type.freebirdFormviewerViewFormCard {
+	margin-top: 20px;
+}
+.freebirdFormviewerViewAccentBanner {
+	height: 8px;
+}
+.freebirdFormviewerViewFormContent {
+	padding: 34px 17px; color: rgba(0, 0, 0, 0.87);
+}
+.freebirdFormviewerViewFormContent > div {
+	padding: 0px 17px;
+}
+.freebirdFormviewerViewFormContent > .freebirdFormviewerViewItemList > .freebirdFormviewerViewSubmitMessage {
+	padding: 0px 17px;
+}
+.freebirdFormviewerViewFormContent > .freebirdFormviewerViewItemList {
+	padding: 0px;
+}
+.freebirdFormviewerViewFormBanner {
+	height: 278px;
+}
+.freebirdFormviewerViewFormBanner .freebirdFormviewerViewEditIconButton {
+	min-width: 4em;
+}
+.freebirdFormviewerViewRequestAccessButtonLabel {
+	display: flex; align-items: center; box-align: center;
+}
+.freebirdFormviewerViewRequestAccessButtonLabelText {
+	margin: 0px 6px;
+}
+.freebirdFormviewerViewPrintContainer {
+	padding-top: 48px;
+}
+.freebirdFormviewerViewDisabledPane {
+	opacity: 0.7;
+}
+.freebirdFormviewerViewSubmissionDate {
+	padding: 0px 10px 10px 0px; color: rgba(0, 0, 0, 0.54); font-size: 12px; font-style: italic; display: flex; justify-content: flex-end; box-pack: end;
+}
+.freebirdFormviewerViewEmailCollectionField [disabled].exportInput {
+	color: rgba(0, 0, 0, 0.87);
+}
+.freebirdFormviewerViewEmailCollectionField .isDisabled .exportUnderline {
+	background-color: transparent;
+}
+@media all and (max-width:660px)
+{
+.freebirdFormviewerViewCenteredContent {
+	width: 90%;
+}
+:first-of-type.freebirdFormviewerViewFormCard {
+	margin-top: -50px;
+}
+.freebirdFormviewerViewNotificationsContainer + .freebirdFormviewerViewCenteredContent :first-of-type.freebirdFormviewerViewFormCard {
+	margin-top: 10px;
+}
+.freebirdFormviewerViewFormBanner {
+	height: 122px;
+}
+}
+.freebirdQuizResponse .quantumWizTogglePapercheckboxCheckMarkContainer {
+	animation:quantumWizPaperAnimateCheckMarkOut forwards;
+}
+.freebirdQuizResponse .isChecked .quantumWizTogglePapercheckboxCheckMarkContainer {
+	animation:quantumWizPaperAnimateCheckMarkIn forwards;
+}
+.freebirdFormviewerViewHeaderHeader {
+	margin-bottom: 22px;
+}
+.freebirdFormviewerViewHeaderTitleRow {
+	display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; box-align: center; box-pack: justify;
+}
+.freebirdFormviewerViewHeaderTitle {
+	line-height: 135%; font-size: 34px; min-width: 0%; max-width: 100%; box-sizing: border-box;
+}
+.freebirdFormviewerViewHeaderRecordViewDisclaimer {
+	color: rgba(0, 0, 0, 0.54); font-size: 12px; margin-bottom: 20px; display: flex; justify-content: flex-start; box-pack: start;
+}
+.freebirdFormviewerViewHeaderGradeContainer {
+	font: 400 14px/20px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; display: flex; font-size-adjust: none; font-stretch: normal; align-items: center; box-align: center;
+}
+.freebirdFormviewerViewHeaderGradeFraction {
+	padding: 5px; border-radius: 3px; margin-left: 8px;
+}
+.freebirdFormviewerViewHeaderRecordViewDisclaimer {
+	line-height: 135%; white-space: pre-wrap;
+}
+.freebirdFormviewerViewHeaderDescription {
+	line-height: 135%; font-size: 13px; margin-top: 22px; white-space: pre-wrap;
+}
+.freebirdFormviewerViewHeaderRequiredLegend {
+	font-size: 13px; margin-top: 22px;
+}
+.freebirdFormviewerViewHeaderDisclosure {
+	font-size: 13px; margin-top: 22px;
+}
+.freebirdFormviewerViewHeaderDisclosure .freebirdFormviewerViewHeaderEmailAddress {
+	font-weight: 700;
+}
+.freebirdFormviewerViewHeaderRequiredLegend {
+	color: rgb(219, 68, 55);
+}
+.freebirdFormviewerViewHeaderTooltipIcon {
+	height: 24px; margin-left: 8px; opacity: 0.54;
+}
+@media all and (max-width:480px)
+{
+.freebirdFormviewerViewHeaderTitle {
+	font-size: 24px;
+}
+}
+:first-child.freebirdFormviewerViewItemsCheckboxChoice {
+	margin-top: 8px;
+}
+:first-child.freebirdFormviewerViewItemsCheckboxOtherChoice {
+	margin-top: 8px;
+}
+.freebirdFormviewerViewItemsCheckboxChoice {
+	padding: 0.5em 0.5em 0.5em 0px; display: flex;
+}
+.freebirdFormviewerViewItemsCheckboxGraded.freebirdFormviewerViewItemsCheckboxChoice {
+	padding: 0.5em; margin-bottom: 1px;
+}
+:last-child.freebirdFormviewerViewItemsCheckboxGraded.freebirdFormviewerViewItemsCheckboxChoice {
+	margin-bottom: 0px;
+}
+.freebirdFormviewerViewItemsCheckboxCorrect.freebirdFormviewerViewItemsCheckboxChoice {
+	background-color: rgb(241, 248, 233);
+}
+.freebirdFormviewerViewItemsCheckboxIncorrect.freebirdFormviewerViewItemsCheckboxChoice {
+	background-color: rgb(251, 233, 231);
+}
+.freebirdFormviewerViewItemsCheckboxLabel {
+	line-height: 135%; min-width: 0%;
+}
+.freebirdFormviewerViewItemsCheckboxContainer {
+	min-width: 0%;
+}
+.freebirdFormviewerViewItemsCheckboxOtherContainer {
+	display: flex; flex-wrap: wrap; flex-grow: 1; align-items: center; box-align: center; box-flex: 1;
+}
+.freebirdFormviewerViewItemsCheckboxGraded.freebirdFormviewerViewItemsCheckboxOtherContainer {
+	padding: 0px 0.5em 0px 0px;
+}
+.freebirdFormviewerViewItemsCheckboxOtherContainer .freebirdFormviewerViewItemsCheckboxOtherCheckbox {
+	white-space: nowrap; flex-grow: 0; box-flex: 0;
+}
+.freebirdFormviewerViewItemsCheckboxOtherInput {
+	margin-left: 12px; min-width: 200px;
+}
+.freebirdFormviewerViewItemsCheckboxDisabledOtherInput {
+	border-bottom-color: rgba(0, 0, 0, 0.38); border-bottom-width: 1px; border-bottom-style: dotted; min-height: 20px;
+}
+.freebirdFormviewerViewItemsCheckboxChoiceContainer {
+	width: 276px; display: flex; max-width: 276px; flex-direction: column; box-orient: vertical;
+}
+.freebirdFormviewerViewItemsCheckboxCheckboxGroupContainer {
+	display: flex; flex-wrap: wrap; justify-content: space-between; box-pack: justify;
+}
+@media all and (max-width:660px)
+{
+.freebirdFormviewerViewItemsCheckboxChoiceContainer {
+	width: 100%;
+}
+}
+.freebirdFormviewerViewItemsCheckboxGridTextAndWidget {
+	flex-wrap: wrap;
+}
+.freebirdFormviewerViewItemsCheckboxGridTextAndWidget .exportLabelWrapper {
+	max-width: calc(100% - 24px);
+}
+.freebirdFormviewerViewItemsDateDateTimeInputs {
+	margin: 16px 0px; display: inline-flex;
+}
+.freebirdFormviewerViewItemsDateDateInputs {
+	display: inline-flex;
+}
+.freebirdFormviewerViewItemsDateDateSelectionInput {
+	display: flex;
+}
+.freebirdFormviewerViewItemsDateTimeInputs {
+	margin-left: 32px; display: inline-flex;
+}
+.freebirdFormviewerViewItemsDateLabel {
+	color: rgba(0, 0, 0, 0.38); font-size: 12px; position: absolute;
+}
+div.freebirdFormviewerViewItemsDateInput {
+	width: 20px;
+}
+div.freebirdFormviewerViewItemsDateYearInput {
+	width: 40px;
+}
+div.freebirdFormviewerViewItemsDateDateInput {
+	width: 120px; margin-top: 15px;
+}
+.freebirdFormviewerViewItemsDateInput input::-ms-clear {
+	display: none;
+}
+.freebirdFormviewerViewItemsDateSep {
+	width: 20px; text-align: center; font-weight: 900; margin-top: 30px; display: inline-block;
+}
+@media all and (max-width:480px)
+{
+.freebirdFormviewerViewItemsDateSep {
+	width: 14px;
+}
+}
+.freebirdFormviewerViewItemsEmbeddedobjectLeft {
+	text-align: left;
+}
+.freebirdFormviewerViewItemsEmbeddedobjectCenter {
+	text-align: center;
+}
+.freebirdFormviewerViewItemsEmbeddedobjectRight {
+	text-align: right;
+}
+.freebirdFormviewerViewItemsEmbeddedobjectImage {
+	border: currentColor; border-image: none; padding-top: 10px; max-width: 100%;
+}
+.freebirdFormviewerViewItemsEmbeddedobjectImage:focus {
+	
+}
+.freebirdFormviewerViewItemsEmbeddedobjectImageWrapper {
+	display: inline-block; max-width: 100%;
+}
+.freebirdFormviewerViewItemsEmbeddedobjectCaptionText {
+	text-align: center; line-height: 135%; font-size: 13px;
+}
+.freebirdFormviewerViewItemsFileuploadChipList {
+	margin-top: 12px;
+}
+.freebirdFormviewerViewItemsItemItem {
+	padding: 16px 17px; transition:background-color 200ms cubic-bezier(0, 0, 0.2, 1); margin-top: 2px; page-break-inside: avoid; background-color: transparent;
+}
+.freebirdFormviewerViewItemsItemErrorMessage {
+	font: 400 16px/135% Roboto, RobotoDraft, Helvetica, Arial, sans-serif; color: rgb(219, 68, 55); display: none; font-size-adjust: none; font-stretch: normal;
+}
+.HasError.freebirdFormviewerViewItemsItemItem {
+	background-color: rgb(255, 235, 238);
+}
+.HasError.freebirdFormviewerViewItemsItemItem .freebirdFormviewerViewItemsItemErrorMessage {
+	display: block;
+}
+.freebirdFormviewerViewItemsItemItemHeader {
+	display: flex; justify-content: space-between; box-pack: justify;
+}
+.freebirdFormviewerViewItemsItemItemTitleContainer {
+	display: flex; position: relative; min-width: 0%; max-width: 100%; box-sizing: border-box; flex-direction: column; align-items: flex-start; box-align: start; box-orient: vertical;
+}
+.freebirdFormviewerViewItemsItemCorrectnessIcon {
+	left: -29px; position: absolute;
+}
+.freebirdFormviewerViewItemsItemItemTitle {
+	width: 100%; color: rgb(0, 0, 0); line-height: 135%; font-size: 20px;
+}
+.freebirdFormviewerViewItemsItemDisabled .freebirdFormviewerViewItemsItemItemTitle {
+	color: rgb(158, 158, 158);
+}
+.freebirdFormviewerViewItemsItemCorrect .freebirdFormviewerViewItemsItemItemTitle {
+	color: rgb(15, 157, 88);
+}
+.freebirdFormviewerViewItemsItemIncorrect .freebirdFormviewerViewItemsItemItemTitle {
+	color: rgb(219, 68, 55);
+}
+.freebirdFormviewerViewItemsItemScore {
+	font: 400 14px/26px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; display: flex; font-size-adjust: none; font-stretch: normal; align-items: flex-start; box-align: start;
+}
+.freebirdFormviewerViewItemsItemHint.freebirdFormviewerViewItemsItemScore {
+	color: rgba(0, 0, 0, 0.54); font-size: 12px; margin-left: 6px; flex-shrink: 0;
+}
+.freebirdFormviewerViewItemsItemScore .freebirdFormviewerViewItemsItemNoGrade {
+	color: rgba(0, 0, 0, 0.54);
+}
+.freebirdFormviewerViewItemsItemHasScoreInput.freebirdFormviewerViewItemsItemScore {
+	text-align: center; color: rgba(0, 0, 0, 0.54); line-height: 20px; font-size: 13px; font-weight: 400;
+}
+.freebirdFormviewerViewItemsItemScoreInput .exportInput {
+	text-align: center; color: rgba(0, 0, 0, 0.54); line-height: 20px; font-size: 13px; font-weight: 400;
+}
+.freebirdFormviewerViewItemsItemHasScoreInput.freebirdFormviewerViewItemsItemScore > * {
+	margin: 0px 0.25em;
+}
+@media all and (max-width:480px)
+{
+.freebirdFormviewerViewItemsItemHasScoreInput.freebirdFormviewerViewItemsItemItemHeader {
+	display: block;
+}
+.freebirdFormviewerViewItemsItemHasScoreInput.freebirdFormviewerViewItemsItemScore {
+	height: 48px;
+}
+}
+.freebirdFormviewerViewItemsItemPointsDivider {
+	color: rgba(0, 0, 0, 0.38); padding-top: 3px;
+}
+.freebirdFormviewerViewItemsItemPossiblePoints {
+	padding-top: 3px;
+}
+.freebirdFormviewerViewItemsItemScoreInput {
+	width: 7.5ch; padding-bottom: 0px;
+}
+.freebirdFormviewerViewItemsItemScoreInput .exportContent {
+	height: auto;
+}
+.freebirdFormviewerViewItemsItemScoreInput .exportContent > * {
+	top: 0px;
+}
+.freebirdFormviewerViewItemsItemItemHelpText {
+	width: 100%; line-height: 135%; font-size: 13px;
+}
+.freebirdFormviewerViewItemsItemRequiredAsterisk {
+	color: rgb(219, 68, 55);
+}
+.freebirdFormviewerViewItemsItemDisabled .freebirdFormviewerViewItemsItemRequiredAsterisk {
+	color: rgb(189, 189, 189);
+}
+.freebirdFormviewerViewItemsItemChoiceCorrectnessIcon .freebirdMaterialIconIconEl {
+	display: block;
+}
+.freebirdFormviewerViewItemsGridContainer {
+	overflow: hidden; font-size: 13px; position: relative;
+}
+.freebirdFormviewerViewItemsGridPinnedHeader {
+	left: 0px; top: 0px; position: absolute; pointer-events: none; background-color: transparent;
+}
+.freebirdFormviewerViewItemsGridPinnedHeader :nth-child(1).freebirdFormviewerViewItemsGridRow.freebirdFormviewerViewItemsGridColumnHeader {
+	background-color: transparent;
+}
+.freebirdFormviewerViewItemsGridScrollingData :nth-child(1).freebirdFormviewerViewItemsGridRow.freebirdFormviewerViewItemsGridColumnHeader {
+	background-color: transparent;
+}
+.freebirdFormviewerViewItemsGridRowHeader.freebirdFormviewerViewItemsGridCell {
+	padding: 8px; text-align: left; min-width: 50px; max-width: 300px;
+}
+@media all and (max-width:480px)
+{
+.freebirdFormviewerViewItemsGridRowHeader.freebirdFormviewerViewItemsGridCell {
+	max-width: 150px;
+}
+}
+.freebirdFormviewerViewItemsGridCell {
+	padding: 0.25em; width: 50px; height: 2.5em; text-align: center; vertical-align: middle; display: table-cell; min-width: 50px;
+}
+.freebirdFormviewerViewItemsGridColumnHeader :first-child.freebirdFormviewerViewItemsGridCell {
+	box-shadow: none;
+}
+.freebirdFormviewerViewItemsGridRowGroup {
+	display: table-row-group;
+}
+.freebirdFormviewerViewItemsGridRow {
+	border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; display: table-row;
+}
+.freebirdFormviewerViewItemsGridCheckboxGroup {
+	border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; display: table-row;
+}
+.freebirdFormviewerViewItemsGridRowGroup > content {
+	border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; display: table-row;
+}
+.freebirdFormviewerViewItemsGridCheckbox {
+	display: inline-block;
+}
+.freebirdFormviewerViewItemsGridPinnedHeader {
+	width: 100%; display: table; border-collapse: collapse;
+}
+.freebirdFormviewerViewItemsGridScrollingData {
+	width: 100%; display: table; border-collapse: collapse;
+}
+.freebirdFormviewerViewItemsGridScrollingData :nth-child(2n+1).freebirdFormviewerViewItemsGridRowGroup {
+	background-color: rgb(238, 238, 238);
+}
+.freebirdFormviewerViewItemsGridPinnedHeader :nth-child(2n+1).freebirdFormviewerViewItemsGridRow :first-child.freebirdFormviewerViewItemsGridCell {
+	background-color: rgb(238, 238, 238);
+}
+.freebirdFormviewerViewItemsGridScrollingData :nth-child(2n).freebirdFormviewerViewItemsGridRowGroup {
+	background-color: rgb(250, 250, 250);
+}
+.freebirdFormviewerViewItemsGridPinnedHeader :nth-child(2n).freebirdFormviewerViewItemsGridRow :first-child.freebirdFormviewerViewItemsGridCell {
+	background-color: rgb(250, 250, 250);
+}
+.freebirdFormviewerViewItemsGridPinnedHeader .freebirdFormviewerViewItemsGridColumnHeader.freebirdFormviewerViewItemsGridRow :first-child.freebirdFormviewerViewItemsGridCell {
+	background: rgb(255, 255, 255);
+}
+.freebirdFormviewerViewItemsGridIsInvalid.freebirdFormviewerViewItemsGridContainer .freebirdFormviewerViewItemsGridPinnedHeader .freebirdFormviewerViewItemsGridColumnHeader.freebirdFormviewerViewItemsGridRow :first-child.freebirdFormviewerViewItemsGridCell {
+	background: rgb(255, 235, 238);
+}
+.freebirdFormviewerViewItemsGridIsScrolling.freebirdFormviewerViewItemsGridContainer .freebirdFormviewerViewItemsGridPinnedHeader .freebirdFormviewerViewItemsGridColumnHeader.freebirdFormviewerViewItemsGridRow :first-child.freebirdFormviewerViewItemsGridCell {
+	box-shadow: 5px 0px 5px -1px #ffffff;
+}
+.freebirdFormviewerViewItemsGridIsScrolling.freebirdFormviewerViewItemsGridIsInvalid.freebirdFormviewerViewItemsGridContainer .freebirdFormviewerViewItemsGridPinnedHeader .freebirdFormviewerViewItemsGridColumnHeader.freebirdFormviewerViewItemsGridRow :first-child.freebirdFormviewerViewItemsGridCell {
+	box-shadow: 5px 0px 5px -1px #ffebee;
+}
+.freebirdFormviewerViewItemsGridIsScrolling.freebirdFormviewerViewItemsGridContainer .freebirdFormviewerViewItemsGridPinnedHeader :not(.freebirdFormviewerViewItemsGridColumnHeader).freebirdFormviewerViewItemsGridRow :first-child.freebirdFormviewerViewItemsGridCell {
+	box-shadow: 5px 0px 5px -1px #e0e0e0;
+}
+.freebirdFormviewerViewItemsGridPinnedHeader {
+	cursor: pointer;
+}
+.freebirdFormviewerViewItemsGridColumnHeader {
+	cursor: default;
+}
+.freebirdFormviewerViewItemsGridPinnedHeader .freebirdFormviewerViewItemsGridRow :first-child.freebirdFormviewerViewItemsGridCell {
+	cursor: default; pointer-events: all;
+}
+.freebirdFormviewerViewItemsGridPinnedHeader .freebirdFormviewerViewItemsGridRow :not(:first-child).freebirdFormviewerViewItemsGridCell {
+	visibility: hidden;
+}
+.freebirdFormviewerViewItemsGridScrollContainer {
+	padding-bottom: 8px; -ms-overflow-x: auto; -ms-overflow-y: hidden;
+}
+.freebirdFormviewerViewItemsGridOverflowFade {
+	background: linear-gradient(to left, white, transparent); top: 0px; width: 15px; height: calc(100% - 12px); right: 0px; position: absolute; pointer-events: none;
+}
+.freebirdFormviewerViewItemsGridIsInvalid.freebirdFormviewerViewItemsGridContainer .freebirdFormviewerViewItemsGridOverflowFade {
+	background: linear-gradient(to left, rgb(255, 235, 238), transparent);
+}
+.freebirdFormviewerViewItemsItemGradingGradingBox {
+	padding: 20px; margin-top: 24px; background-color: rgb(245, 245, 245);
+}
+.freebirdFormviewerViewItemsItemGradingGradingBox ~ .freebirdFormviewerViewItemsItemGradingGradingBox {
+	margin-top: 1px;
+}
+.freebirdFormviewerViewItemsItemGradingFeedbackBox.freebirdFormviewerViewItemsItemGradingGradingBox {
+	padding-bottom: 10px;
+}
+:empty.freebirdFormviewerViewItemsItemGradingFeedbackBox.freebirdFormviewerViewItemsItemGradingGradingBox {
+	display: none;
+}
+.freebirdFormviewerViewItemsItemGradingCorrectAnswerBoxHeading {
+	font: 500 14px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewItemsItemGradingFeedbackBoxHeading {
+	font: 500 14px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewItemsItemGradingEditable.freebirdFormviewerViewItemsItemGradingFeedbackBoxHeading {
+	margin-top: -15px; margin-right: -15px; display: flex; justify-content: space-between; align-items: center; box-align: center; box-pack: justify;
+}
+:not(.freebirdFormviewerViewItemsItemGradingEditable).freebirdFormviewerViewItemsItemGradingFeedbackBoxHeading {
+	margin-top: 3px; margin-bottom: 17px;
+}
+.freebirdFormviewerViewItemsItemGradingFeedbackBox .freebirdFormviewerViewItemsItemGradingButtons .freebirdMaterialIconIconEl {
+	opacity: 0.54;
+}
+.freebirdFormviewerViewItemsItemGradingFeedbackText {
+	font: italic 400 14px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding-bottom: 10px; font-size-adjust: none; font-stretch: normal;
+}
+:empty.freebirdFormviewerViewItemsItemGradingFeedbackText {
+	display: none;
+}
+:not(:empty).freebirdFormviewerViewItemsItemGradingFeedbackText + :not(:empty).freebirdFormviewerViewItemsItemGradingFeedbackMaterial {
+	padding-top: 10px;
+}
+.freebirdFormviewerViewItemsItemGradingFeedbackMaterial .freebirdFormviewerViewItemsItemGradingFeedbackChip {
+	margin: 0px 10px 10px 0px; max-width: 90%; background-color: rgb(255, 255, 255);
+}
+.freebirdFormviewerViewItemsPagebreakBanner {
+	margin-right: -17px; margin-left: -17px;
+}
+.freebirdFormviewerViewItemsPagebreakBanner .freebirdFormviewerViewItemsPagebreakBannerText {
+	font: 500 20px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding-left: 34px; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewItemsPagebreakBanner .freebirdFormviewerViewItemsPagebreakBannerText a {
+	color: inherit;
+}
+.freebirdFormviewerViewItemsPagebreakDescriptionText {
+	font: 400 14px/135% Roboto, RobotoDraft, Helvetica, Arial, sans-serif; color: rgb(33, 33, 33); padding-left: 17px; margin-top: 13px; white-space: pre-wrap; font-size-adjust: none; font-stretch: normal;
+}
+:first-child.freebirdFormviewerViewItemsRadioChoice {
+	margin-top: 8px;
+}
+.freebirdFormviewerViewItemsRadioChoice {
+	padding: 0.5em 0.5em 0.5em 0px; min-height: 24px;
+}
+.freebirdFormviewerViewItemsRadioGraded.freebirdFormviewerViewItemsRadioChoice {
+	padding: 0.5em;
+}
+.freebirdFormviewerViewItemsRadioCorrect.freebirdFormviewerViewItemsRadioChoice {
+	background-color: rgb(241, 248, 233);
+}
+.freebirdFormviewerViewItemsRadioIncorrect.freebirdFormviewerViewItemsRadioChoice {
+	background-color: rgb(251, 233, 231);
+}
+.freebirdFormviewerViewItemsRadioLabel {
+	line-height: 135%; min-width: 0%;
+}
+.freebirdFormviewerViewItemsRadioOtherChoice {
+	display: flex; flex-wrap: wrap; align-items: center; box-align: center;
+}
+.freebirdFormviewerViewItemsRadioGraded.freebirdFormviewerViewItemsRadioOtherChoice {
+	padding: 0px 0.5em 0px 0px;
+}
+.freebirdFormviewerViewItemsRadioOtherChoice .freebirdFormviewerViewItemsRadioOtherRadio {
+	white-space: nowrap; flex-grow: 0; box-flex: 0;
+}
+.freebirdFormviewerViewItemsRadioOtherChoice .freebirdFormviewerViewItemsRadioGraded.freebirdFormviewerViewItemsRadioOtherRadio {
+	padding: 0.5em;
+}
+.freebirdFormviewerViewItemsRadioOtherInput {
+	margin-left: 12px; min-width: 200px;
+}
+.freebirdFormviewerViewItemsRadioOtherIcon {
+	display: flex; flex-direction: row-reverse; flex-grow: 1; box-flex: 1; box-orient: horizontal;
+}
+.freebirdFormviewerViewItemsRadioDisabledOtherInput {
+	border-bottom-color: rgba(0, 0, 0, 0.38); border-bottom-width: 1px; border-bottom-style: dotted; min-height: 20px;
+}
+.freebirdFormviewerViewItemsRadioChoiceContainer {
+	width: 276px; max-width: 276px;
+}
+.freebirdFormviewerViewItemsRadioRadioGroupContainer {
+	display: flex; flex-wrap: wrap; justify-content: space-between; box-pack: justify;
+}
+@media all and (max-width:660px)
+{
+.freebirdFormviewerViewItemsRadioChoiceContainer {
+	width: 100%;
+}
+}
+.freebirdFormviewerViewItemsRadioGridTextAndWidget {
+	flex-wrap: wrap;
+}
+.freebirdFormviewerViewItemsRadioGridTextAndWidget .exportLabelWrapper {
+	max-width: calc(100% - 24px);
+}
+.freebirdFormviewerViewItemsSectionheaderBanner {
+	margin-left: -34px;
+}
+.freebirdFormviewerViewItemsSectionheaderBanner .freebirdFormviewerViewItemsSectionheaderBannerText {
+	font: 500 20px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding-left: 34px; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewItemsSectionheaderBanner .freebirdFormviewerViewItemsSectionheaderBannerText a {
+	color: inherit;
+}
+.freebirdFormviewerViewItemsSectionheaderDescriptionText {
+	font: 400 14px/135% Roboto, RobotoDraft, Helvetica, Arial, sans-serif; color: rgb(33, 33, 33); margin-top: 22px; white-space: pre-wrap; font-size-adjust: none; font-stretch: normal;
+}
+:first-child.freebirdFormviewerViewItemsSelectChoice {
+	margin-top: 8px;
+}
+.freebirdFormviewerViewItemsSelectChoice {
+	padding: 0.5em; color: rgba(0, 0, 0, 0.54); display: flex;
+}
+.freebirdFormviewerViewItemsSelectLabel {
+	min-width: 0%; flex-grow: 1; box-flex: 1;
+}
+.freebirdFormviewerViewItemsSelectSelected.freebirdFormviewerViewItemsSelectChoice {
+	color: rgba(0, 0, 0, 0.87);
+}
+.freebirdFormviewerViewItemsSelectCorrectAnswerBox .freebirdFormviewerViewItemsSelectChoice {
+	color: rgba(0, 0, 0, 0.87);
+}
+.freebirdFormviewerViewItemsSelectCorrect {
+	background-color: rgb(241, 248, 233);
+}
+.freebirdFormviewerViewItemsSelectIncorrect {
+	background-color: rgb(251, 233, 231);
+}
+.docssharedWizSelectPaperselectRoot .exportOption {
+	padding-right: 44px; white-space: normal; -ms-word-wrap: normal;
+}
+.docssharedWizSelectPaperselectRoot :not(.exportSelectPopup) .isSelected.exportOption {
+	padding-top: 12px; padding-bottom: 12px;
+}
+.docssharedWizSelectPaperselectRoot .exportSelectPopup {
+	padding: 8px 0px;
+}
+.docssharedWizSelectPaperselectRoot .exportSelectPopup .exportOption {
+	margin: 4px 0px; padding-top: 12px; padding-right: 42px; padding-bottom: 12px;
+}
+.docssharedWizSelectPaperselectRoot .exportSelectPopup .isSelected.exportOption {
+	margin: 4px 0px; padding-top: 12px; padding-right: 42px; padding-bottom: 12px;
+}
+.docssharedWizSelectPaperselectRoot .exportOptionIcon {
+	top: 8px;
+}
+.docssharedWizSelectPaperselectRoot .exportSelectPopup .isSelected.exportOption .exportOptionIcon {
+	top: 8px;
+}
+.docssharedWizSelectPaperselectRoot .exportDropDown {
+	top: 18px; right: 18px;
+}
+.quantumWizMenuPapermenuMenu {
+	background: rgb(255, 255, 255); border-radius: 2px; border: 0px currentColor; transition:max-width 0.2s cubic-bezier(0, 0, 0.2, 1), max-height 0.2s cubic-bezier(0, 0, 0.2, 1), opacity 0.1s linear; border-image: none; overflow: hidden; z-index: 2000; max-height: 100%; max-width: 100%; box-sizing: border-box; opacity: 1; box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12), 0px 5px 5px -3px rgba(0,0,0,0.2); transform: translateZ(0px);
+}
+.quantumWizMenuPapermenuMenuScrollBox {
+	-ms-overflow-x: hidden; -ms-overflow-y: auto;
+}
+.quantumWizMenuPapermenuMenuContent {
+	padding: 16px 0px; float: left;
+}
+.isAttached.quantumWizMenuPapermenuMenu {
+	transition:left 0.2s cubic-bezier(0, 0, 0.2, 1), max-width 0.2s cubic-bezier(0, 0, 0.2, 1), max-height 0.2s cubic-bezier(0, 0, 0.2, 1), opacity 0.05s linear, top 0.2s cubic-bezier(0, 0, 0.2, 1);
+}
+.isCollapsed.quantumWizMenuPapermenuMenu {
+	max-height: 56px; opacity: 0;
+}
+.isRepositioning.quantumWizMenuPapermenuMenu {
+	transition:none;
+}
+.quantumWizMenuPapermenuMenuItem {
+	padding: 0px 24px; color: rgb(34, 34, 34); overflow: hidden; display: block; position: relative; cursor: pointer;
+}
+.quantumWizMenuPapermenuMenuItemContent {
+	height: 40px; line-height: 40px; font-size: 14px; font-weight: 400; display: flex; white-space: nowrap; position: relative;
+}
+.quantumWizMenuPapermenuMenuItemLabel {
+	min-width: 0px; flex-grow: 1; box-flex: 1;
+}
+.hasIcons.quantumWizMenuPapermenuMenu .quantumWizMenuPapermenuMenuItem {
+	padding-left: 64px;
+}
+.hasSecondaryIcons.quantumWizMenuPapermenuMenu .quantumWizMenuPapermenuMenuItem {
+	padding-right: 48px;
+}
+.quantumWizMenuPapermenuMenuItemIcon {
+	left: 24px; height: 40px; display: flex; position: absolute; opacity: 0.54; flex-direction: column; justify-content: center; background-repeat: no-repeat;
+}
+.isDisabled.quantumWizMenuPapermenuMenuItem .quantumWizMenuPapermenuMenuItemIcon {
+	opacity: 0.26;
+}
+.isHighlighted.quantumWizMenuPapermenuMenuItem {
+	background-color: rgb(238, 238, 238);
+}
+.isDisabled.quantumWizMenuPapermenuMenuItem {
+	color: rgb(184, 184, 184); cursor: default;
+}
+.isChecked.quantumWizMenuPapermenuMenuItem::before {
+	transform-origin: left 50%; left: 24px; top: 13%; width: 7px; height: 16px; border-right-color: rgb(34, 34, 34); border-bottom-color: rgb(34, 34, 34); border-right-width: 2px; border-bottom-width: 2px; border-right-style: solid; border-bottom-style: solid; display: block; position: absolute; z-index: 0; content: "\0000a0"; opacity: 0.54; transform: rotate(45deg);
+}
+.hasSecondaryIcons.quantumWizMenuPapermenuMenu .isChecked.quantumWizMenuPapermenuMenuItem::before {
+	left: auto; right: 16px;
+}
+.isDisabled.quantumWizMenuPapermenuMenuItem::before {
+	border-color: rgb(184, 184, 184); opacity: 1;
+}
+.quantumWizMenuPapermenuRipple {
+	position: absolute; pointer-events: none;
+}
+.isActive.quantumWizMenuPapermenuMenuItem > .quantumWizMenuPapermenuRipple {
+	animation:quantumWizBoxInkSpread 0.3s ease-out forwards; left: 0px; top: 0px; opacity: 1; background-image: radial-gradient(circle farthest-side, rgb(189, 189, 189), rgb(189, 189, 189) 80%, rgba(189, 189, 189, 0) 100%); background-size: cover;
+}
+.quantumWizMenuPapermenuMenuItemArrow {
+	padding: 0px 6px 0px 1em; color: inherit;
+}
+.quantumWizMenuPapermenuMenuItemAccel {
+	padding: 0px 6px 0px 1em; color: inherit; direction: ltr;
+}
+.quantumWizMenuPapermenuMenuItemSeparator {
+	margin: 7px 0px; border-top-color: rgba(0, 0, 0, 0.12); border-top-width: 1px; border-top-style: solid;
+}
+.quantumWizMenuPapermenuMenuButtonSeparator {
+	height: 48px; border-left-color: rgba(0, 0, 0, 0.12); border-left-width: 1px; border-left-style: solid; display: inline-block;
+}
+@media screen and (max-width:840px)
+{
+.quantumWizMenuPapermenuMenuContent {
+	padding: 8px 0px;
+}
+.quantumWizMenuPapermenuMenuItem {
+	padding: 0px 16px;
+}
+.hasIcons.quantumWizMenuPapermenuMenu .quantumWizMenuPapermenuMenuItem {
+	padding-left: 48px;
+}
+.quantumWizMenuPapermenuMenuItemIcon {
+	left: 12px;
+}
+}
+.quantumWizMenuPaperselectEl {
+	border-radius: 3px; border: 0px currentColor; transition:background 0.3s; border-image: none; text-align: center; color: rgb(68, 68, 68); font-size: 14px; font-weight: 500; display: inline-block; position: relative; cursor: pointer; -ms-user-select: none;
+}
+.quantumWizMenuPaperselectDark {
+	color: rgb(255, 255, 255); fill: #fff;
+}
+.isFocused.quantumWizMenuPaperselectEl {
+	background-color: rgba(153, 153, 153, 0.4);
+}
+.isFocused.quantumWizMenuPaperselectDark {
+	background-color: rgba(204, 204, 204, 0.251);
+}
+.quantumWizMenuPaperselectRipple {
+	transition:transform 0s linear 0.2s, opacity 0.2s; left: 0px; top: 0px; visibility: hidden; position: absolute; opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(0); background-size: cover;
+}
+.isActive.quantumWizMenuPaperselectEl .quantumWizMenuPaperselectOptionList .quantumWizMenuPaperselectRipple {
+	transition:transform 0.3s cubic-bezier(0, 0, 0.2, 1); visibility: visible; opacity: 1; transform: translate(-50%, -50%) scale(2.2);
+}
+.quantumWizMenuPaperselectEl .quantumWizMenuPaperselectRipple {
+	background-image: radial-gradient(circle farthest-side, rgba(153, 153, 153, 0.4), rgba(153, 153, 153, 0.4) 80%, rgba(153, 153, 153, 0) 100%);
+}
+.quantumWizMenuPaperselectLight .quantumWizMenuPaperselectRipple {
+	background-image: radial-gradient(circle farthest-side, rgba(153, 153, 153, 0.4), rgba(153, 153, 153, 0.4) 80%, rgba(153, 153, 153, 0) 100%);
+}
+.quantumWizMenuPaperselectDark .quantumWizMenuPaperselectRipple {
+	background-image: radial-gradient(circle farthest-side, rgba(204, 204, 204, 0.251), rgba(204, 204, 204, 0.251) 80%, rgba(204, 204, 204, 0) 100%);
+}
+.isDisabled.quantumWizMenuPaperselectLight {
+	color: rgba(68, 68, 68, 0.502); cursor: auto; fill: rgba(68, 68, 68, 0.502);
+}
+.isDisabled.quantumWizMenuPaperselectDark {
+	color: rgba(255, 255, 255, 0.502); fill: rgba(255, 255, 255, 0.502);
+}
+.isDisabled.quantumWizMenuPaperselectEl {
+	color: rgba(68, 68, 68, 0.502); cursor: auto; box-shadow: none;
+}
+.quantumWizMenuPaperselectContent {
+	position: relative;
+}
+.quantumWizMenuPaperselectDropDown {
+	border-width: 6px 6px 0px; border-style: solid; border-color: rgba(68, 68, 68, 0.4) transparent; top: 15px; width: 0px; height: 0px; right: 5px; position: absolute;
+}
+.quantumWizMenuPaperselectDropDownIcon {
+	top: 0px; width: 24px; right: 0px; overflow: hidden; position: absolute;
+}
+.quantumWizMenuPaperselectPopup {
+	background: rgb(255, 255, 255); border: 0px currentColor; transition:opacity 0.1s linear; border-image: none; overflow: hidden; position: fixed; z-index: 2000; -ms-overflow-y: auto; opacity: 0; box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12), 0px 5px 5px -3px rgba(0,0,0,0.2);
+}
+.isOpen.quantumWizMenuPaperselectEl .quantumWizMenuPaperselectPopup {
+	opacity: 1;
+}
+.quantumWizMenuPaperselectOption {
+	border-color: transparent; list-style: none; height: 0px; text-align: left; color: rgb(34, 34, 34); overflow: hidden; padding-right: 24px; padding-left: 16px; white-space: nowrap; position: relative;
+}
+.isDisabled.quantumWizMenuPaperselectOption {
+	color: rgb(184, 184, 184); cursor: default; pointer-events: none;
+}
+.isPlaceholder.quantumWizMenuPaperselectOption {
+	color: rgba(0, 0, 0, 0.54);
+}
+.hasIcons.quantumWizMenuPaperselectEl .quantumWizMenuPaperselectOption {
+	padding-left: 48px;
+}
+.quantumWizMenuPaperselectOptionList .isSelected.quantumWizMenuPaperselectOption {
+	height: auto; padding-top: 8px; padding-bottom: 8px;
+}
+.quantumWizMenuPaperselectFlexButtonWidth .quantumWizMenuPaperselectOption {
+	display: none;
+}
+.quantumWizMenuPaperselectFlexButtonWidth .isSelected.quantumWizMenuPaperselectOption {
+	display: block;
+}
+.quantumWizMenuPaperselectPopup .quantumWizMenuPaperselectOption {
+	height: auto; padding-top: 8px; padding-right: 26px; padding-bottom: 8px; cursor: pointer;
+}
+.quantumWizMenuPaperselectPopup .isSelected.quantumWizMenuPaperselectOption {
+	border-width: 1px 0px; border-style: dotted; padding-top: 7px; padding-bottom: 7px; background-color: rgb(238, 238, 238);
+}
+.quantumWizMenuPaperselectIcon {
+	left: 12px; top: 5px; width: 21px; height: 21px; right: auto; vertical-align: middle; position: absolute; opacity: 0.54; background-repeat: no-repeat;
+}
+.quantumWizMenuPaperselectPopup .isSelected.quantumWizMenuPaperselectOption .quantumWizMenuPaperselectIcon {
+	top: 4px;
+}
+.isDisabled.quantumWizMenuPaperselectEl .quantumWizMenuPaperselectIcon {
+	opacity: 0.26;
+}
+.isDisabled.quantumWizMenuPaperselectOption .quantumWizMenuPaperselectIcon {
+	opacity: 0.26;
+}
+.isActive.quantumWizMenuPaperselectPopup > .isSelected.quantumWizMenuPaperselectOption > .quantumWizMenuPaperselectRipple {
+	transition:transform 0.3s cubic-bezier(0, 0, 0.2, 1); visibility: visible; opacity: 1; transform: translate(-50%, -50%) scale(2.2);
+}
+.quantumWizMenuPaperselectOptionSeparator {
+	margin: 0px; height: 0px; overflow: hidden; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.quantumWizMenuPaperselectPopup .quantumWizMenuPaperselectOptionSeparator {
+	margin: 7px 0px; border-top-color: rgba(0, 0, 0, 0.12); border-top-width: 1px; border-top-style: solid;
+}
+.quantumWizMenuPaperselectIconsOnlyEl {
+	width: 64px;
+}
+.quantumWizMenuPaperselectIconsOnlyOptionList .isSelected .quantumWizMenuPaperselectContent {
+	visibility: hidden;
+}
+.quantumWizMenuPaperselectIconsOnlyOptionList .quantumWizMenuPaperselectOption {
+	padding-right: 12px; padding-left: 48px;
+}
+.freebirdFormviewerViewItemsTextTextItem .freebirdFormviewerViewItemsTextUrl.freebirdFormviewerViewItemsTextShortText {
+	width: 100%;
+}
+.freebirdFormviewerViewItemsTextTextItem .freebirdFormviewerViewItemsTextLongText {
+	width: 100%;
+}
+.freebirdFormviewerViewItemsTextTextItem :not(.freebirdFormviewerViewItemsTextDisabledText).freebirdFormviewerViewItemsTextShortText {
+	width: 50%;
+}
+.freebirdFormviewerViewItemsTextTextItem .freebirdFormviewerViewItemsTextDisabledText.freebirdFormviewerViewItemsTextShortText {
+	min-width: 50%; max-width: 100%;
+}
+@media all and (max-width:480px)
+{
+.freebirdFormviewerViewItemsTextTextItem :not(.freebirdFormviewerViewItemsTextDisabledText).freebirdFormviewerViewItemsTextShortText {
+	width: 100%;
+}
+.freebirdFormviewerViewItemsTextTextItem .freebirdFormviewerViewItemsTextDisabledText.freebirdFormviewerViewItemsTextShortText {
+	width: 100%;
+}
+}
+.freebirdFormviewerViewItemsTextTextItem .freebirdFormviewerViewItemsTextNumber.freebirdFormviewerViewItemsTextShortText {
+	width: 8em;
+}
+.freebirdFormviewerViewItemsTextItemWrapper {
+	padding: 0.5em 0.5em 0.5em 0px; display: flex; justify-content: space-between; align-items: center; box-align: center; box-pack: justify;
+}
+.freebirdFormviewerViewItemsTextCorrect.freebirdFormviewerViewItemsTextItemWrapper {
+	padding: 0.5em;
+}
+.freebirdFormviewerViewItemsTextIncorrect.freebirdFormviewerViewItemsTextItemWrapper {
+	padding: 0.5em;
+}
+.freebirdFormviewerViewItemsTextCorrect.freebirdFormviewerViewItemsTextItemWrapper {
+	background-color: rgb(241, 248, 233);
+}
+.freebirdFormviewerViewItemsTextIncorrect.freebirdFormviewerViewItemsTextItemWrapper {
+	background-color: rgb(251, 233, 231);
+}
+.freebirdFormviewerViewItemsTextTextItem .freebirdFormviewerViewItemsTextCorrectAnswer {
+	display: block;
+}
+.freebirdFormviewerViewItemsTextTextItem .freebirdFormviewerViewItemsTextDisabledText {
+	font: 400 16px/24px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin-top: 14px; margin-bottom: 24px; border-bottom-color: rgba(0, 0, 0, 0.38); border-bottom-width: 1px; border-bottom-style: dotted; white-space: pre-wrap; min-height: 24px; font-size-adjust: none; font-stretch: normal;
+}
+.HasError .freebirdFormviewerViewItemsTextShortText .exportUnderline {
+	background-color: rgb(219, 68, 55);
+}
+.HasError .freebirdFormviewerViewItemsTextShortText .exportFocusUnderline {
+	background-color: rgb(219, 68, 55);
+}
+.HasError .freebirdFormviewerViewItemsTextLongText .exportUnderline {
+	background-color: rgb(219, 68, 55);
+}
+.HasError .freebirdFormviewerViewItemsTextLongText .exportFocusUnderline {
+	background-color: rgb(219, 68, 55);
+}
+.freebirdFormviewerViewItemsTextHidden {
+	display: none;
+}
+:first-child.freebirdFormviewerViewItemsTextCorrectAnswer {
+	margin-top: 8px;
+}
+.freebirdFormviewerViewItemsTextCorrectAnswer {
+	padding: 0.5em; display: flex;
+}
+.freebirdFormviewerViewItemsTimeTimeInputs {
+	margin: 16px 0px; display: flex;
+}
+.freebirdFormviewerViewItemsTimeNumberEdit {
+	width: 20px; display: flex; -ms-word-wrap: normal; flex-direction: column; justify-content: flex-end; box-pack: end; box-orient: vertical;
+}
+.freebirdFormviewerViewItemsTimeLabel {
+	color: rgba(0, 0, 0, 0.38); font-size: 12px; -ms-word-break: keep-all;
+}
+div.freebirdFormviewerViewItemsTimeInput {
+	width: 20px;
+}
+.freebirdFormviewerViewItemsTimeInput input::-ms-clear {
+	display: none;
+}
+.freebirdFormviewerViewItemsTimeSep {
+	width: 12px; text-align: center; font-weight: 900; margin-top: 30px; display: inline-block;
+}
+.freebirdFormviewerViewItemsTimeSelect {
+	font-size: 16px; align-self: flex-end;
+}
+.freebirdFormviewerViewItemsVideoVideo {
+	border: currentColor; border-image: none; max-width: 100%;
+}
+.freebirdFormviewerViewItemsVideoVideo:focus {
+	
+}
+.freebirdFormviewerViewMelbaContainer {
+	transition:transform 500ms cubic-bezier(0, 0, 0.2, 1); width: 100%; position: absolute; transform: translateY(0px);
+}
+.freebirdFormviewerViewMelbaOffscreen.freebirdFormviewerViewMelbaContainer {
+	transform: translateY(-120%);
+}
+.freebirdFormviewerViewMelbaMelba {
+	padding: 24px; color: rgba(0, 0, 0, 0.87); box-sizing: border-box; box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12), 0px 3px 5px -1px rgba(0,0,0,0.2); background-color: white;
+}
+@media all and (max-width:480px)
+{
+.freebirdFormviewerViewMelbaMelba {
+	padding-right: 4em;
+}
+}
+.freebirdFormviewerViewMelbaTitle {
+	font: 500 20px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin-bottom: 8px; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewMelbaBody {
+	font: 400 14px/20px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewMelbaBodyParagraph {
+	margin-top: 8px;
+}
+.freebirdFormviewerViewMelbaEmailAddress {
+	font-weight: bold;
+}
+.freebirdFormviewerViewMelbaUrlBox.freebirdFormviewerViewMelbaUrlBox {
+	width: 100%;
+}
+.freebirdFormviewerViewMelbaResubmitBottom {
+	margin: 16px -8px 0px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; box-align: center; box-pack: justify;
+}
+.freebirdFormviewerViewMelbaResubmitBottom > * {
+	margin: 8px;
+}
+.freebirdFormviewerViewMelbaResubmitButton {
+	flex-shrink: 0; background-color: rgb(66, 133, 244);
+}
+.freebirdFormviewerViewMelbaSignOut {
+	flex-shrink: 0;
+}
+.freebirdFormviewerViewMelbaPlainMessage {
+	font: 400 16px/24px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewMelbaSignIn.freebirdFormviewerViewMelbaContainer {
+	transform: translateY(24px);
+}
+.freebirdFormviewerViewMelbaSignIn .freebirdFormviewerViewMelbaMelba {
+	width: 820px;
+}
+.freebirdFormviewerViewMelbaGLogo {
+	width: 48px; height: 48px; background-image: url("//ssl.gstatic.com/docs/forms/google_g.png"); background-size: cover;
+}
+.freebirdFormviewerViewMelbaSignInWrapper {
+	display: flex; flex-wrap: wrap; justify-content: space-between; box-pack: justify;
+}
+.freebirdFormviewerViewMelbaGAndText {
+	display: inline-flex; flex-grow: 1; box-flex: 1;
+}
+.freebirdFormviewerViewMelbaSignInContent {
+	margin-left: 20px;
+}
+.freebirdFormviewerViewMelbaSignInTitle {
+	font: 400 16px/24px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewMelbaSignInHelpText {
+	font: 400 14px/20px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewMelbaSignInButtonWrapper {
+	display: flex; align-items: center; box-align: center;
+}
+.freebirdFormviewerViewMelbaSignInButton .freebirdFormviewerViewMelbaSignInButtonIcon {
+	border-radius: 3px; width: auto; height: 40px; color: rgb(255, 255, 255); font-size: 14px; background-color: rgb(66, 133, 244);
+}
+.freebirdFormviewerViewMelbaSignInButton content {
+	margin: 8px;
+}
+.freebirdFormviewerViewMelbaSignInMsg {
+	text-transform: uppercase; margin-right: 4px; margin-left: 12px;
+}
+@media all and (max-width:820px)
+{
+.freebirdFormviewerViewMelbaSignIn.freebirdFormviewerViewMelbaContainer {
+	z-index: 1; transform: translateY(12px);
+}
+.freebirdFormviewerViewMelbaSignIn .freebirdFormviewerViewMelbaMelba {
+	padding: 24px; width: calc(100% - 24px);
+}
+.freebirdFormviewerViewMelbaSignInContent {
+	flex-shrink: 8;
+}
+.freebirdFormviewerViewMelbaSignIn .freebirdFormviewerViewMelbaSignInWrapper {
+	justify-content: flex-end; box-pack: end;
+}
+}
+@media all and (max-width:660px)
+{
+.freebirdFormviewerViewMelbaSignInButton {
+	margin-top: 16px;
+}
+}
+.freebirdFormviewerViewNavigationNavControls {
+	margin-top: 34px;
+}
+.freebirdFormviewerViewNavigationButtonsAndProgress {
+	display: flex; flex-wrap: wrap; justify-content: space-between; box-pack: justify;
+}
+@media all and (max-width:660px)
+{
+.freebirdFormviewerViewNavigationProgress {
+	order: 0;
+}
+.freebirdFormviewerViewNavigationButtons {
+	order: 1;
+}
+}
+.freebirdFormviewerViewNavigationButtons {
+	padding-bottom: 10px;
+}
+.freebirdFormviewerViewNavigationProgress {
+	padding-bottom: 10px; display: flex; align-items: center; box-align: center;
+}
+.freebirdFormviewerViewNavigationProgressIndicator {
+	background: rgb(238, 238, 238); border-radius: 40px; width: 184px; height: 10px;
+}
+.freebirdFormviewerViewNavigationProgressIndicatorFill {
+	border-radius: 40px; height: 10px;
+}
+.ten.freebirdFormviewerViewNavigationProgressIndicatorFill {
+	background: rgb(244, 180, 0);
+}
+.thirty-three.freebirdFormviewerViewNavigationProgressIndicatorFill {
+	background: rgb(38, 198, 218);
+}
+.fifty.freebirdFormviewerViewNavigationProgressIndicatorFill {
+	background: rgb(0, 184, 212);
+}
+.fifty-six.freebirdFormviewerViewNavigationProgressIndicatorFill {
+	background: rgb(3, 169, 244);
+}
+.sixty.freebirdFormviewerViewNavigationProgressIndicatorFill {
+	background: rgb(66, 133, 244);
+}
+.eighty-five.freebirdFormviewerViewNavigationProgressIndicatorFill {
+	background: rgb(0, 131, 143);
+}
+.ninety-five.freebirdFormviewerViewNavigationProgressIndicatorFill {
+	background: rgb(67, 160, 71);
+}
+.done.freebirdFormviewerViewNavigationProgressIndicatorFill {
+	background: rgb(15, 157, 88);
+}
+.freebirdFormviewerViewNavigationPercentComplete {
+	font: 400 13px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding: 0px 12px; color: rgb(97, 97, 97); display: inline-block; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewNavigationPasswordWarning {
+	font: 400 12px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; color: rgba(0, 0, 0, 0.54); margin-top: 8px; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewNavigationNoSubmitButton {
+	margin-right: 14px; background-color: rgb(238, 238, 238);
+}
+.freebirdFormviewerViewNavigationSubmitButton {
+	background-color: rgb(66, 133, 244);
+}
+.freebirdFormviewerViewNavigationHeaderButton {
+	top: 16px; right: 16px; float: right; position: relative;
+}
+.freebirdFormviewerViewNotificationsContainer {
+	width: 100%; margin-top: -100px;
+}
+.freebirdFormviewerViewNotificationsNotification {
+	padding: 24px; color: rgba(0, 0, 0, 0.87); box-sizing: border-box; box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.37); background-color: white;
+}
+@media all and (max-width:660px)
+{
+.freebirdFormviewerViewNotificationsContainer {
+	margin-top: -50px;
+}
+}
+.freebirdFormviewerViewNotificationsTitle {
+	font: 500 20px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin-bottom: 8px; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewNotificationsBody {
+	font: 400 14px/20px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewNotificationsBodyParagraph {
+	margin-top: 8px;
+}
+.freebirdFormviewerViewNotificationsEmailAddress {
+	font-weight: bold;
+}
+.freebirdFormviewerViewNotificationsUrlBox.freebirdFormviewerViewNotificationsUrlBox {
+	width: 100%;
+}
+.freebirdFormviewerViewNotificationsResubmitBottom {
+	margin: 16px -8px 0px; display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; box-align: center; box-pack: justify;
+}
+.freebirdFormviewerViewNotificationsResubmitBottom > * {
+	margin: 8px 8px 0px;
+}
+.freebirdFormviewerViewNotificationsResubmitButton {
+	background-color: rgb(66, 133, 244);
+}
+.freebirdFormviewerViewNotificationsPlainMessage {
+	font: 400 16px/24px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewNotificationsOffScreen {
+	left: -99999.9rem; top: -99999.9rem; width: 0.1rem; height: 0.1rem; overflow: hidden; position: absolute;
+}
+.toast.quantumWizToastOnScreen.quantumWizToastElLeftAligned {
+	bottom: 21px; margin-left: 24px;
+}
+@media all and (max-width:480px)
+{
+.toast.quantumWizToastOnScreen.quantumWizToastElLeftAligned {
+	bottom: 0px; margin-left: 0px;
+}
+}
+.errorToast.quantumWizToastEl {
+	background-color: rgb(197, 57, 41);
+}
+.quantumWizToastEl .toastAction {
+	color: rgb(255, 255, 255);
+}
+.freebirdFormviewerViewReceiptEl {
+	margin: 34px 0px;
+}
+.freebirdFormviewerViewReceiptText {
+	color: rgba(0, 0, 0, 0.54); font-size: 16px;
+}
+.freebirdFormviewerViewResponsePageTitle {
+	font: 400 34px/40px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding-bottom: 20px; font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewResponseConfirmContentContainer {
+	font: 400 14px/20px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding: 34px; color: rgba(0, 0, 0, 0.87); font-size-adjust: none; font-stretch: normal;
+}
+.freebirdFormviewerViewResponseLinksContainer {
+	margin-top: 25px;
+}
+:empty.freebirdFormviewerViewResponseLinksContainer {
+	display: none;
+}
+.freebirdFormviewerViewResponseLinksContainer > :not(:first-child) {
+	padding-top: 5px; display: block;
+}
+.freebirdFormviewerViewResponseConfirmationMessage {
+	white-space: pre-wrap;
+}
+.freebirdFormviewerViewResponseTurnInButton {
+	text-align: right; padding-top: 16px;
+}
+.freebirdFormviewerViewResponseTurnInButton a {
+	margin: 8px; text-transform: uppercase; display: inline-block;
+}
+.freebirdFormviewerViewResponseTurnInButton a:link {
+	color: inherit; text-decoration: none;
+}
+.freebirdFormviewerViewResponseTurnInButton a:visited {
+	color: inherit; text-decoration: none;
+}
+.freebirdFormviewerViewResponseTurnInButton a:hover {
+	color: inherit; text-decoration: none;
+}
+.docssharedWizToggleLabeledContainer {
+	display: flex; flex-direction: row; flex-grow: 1; justify-content: space-between; box-pack: justify; box-flex: 1; box-orient: horizontal;
+}
+.isDisabled.docssharedWizToggleLabeledContainer .docssharedWizToggleLabeledLabelText {
+	color: rgba(0, 0, 0, 0.26);
+}
+.isDisabled.docssharedWizToggleLabeledContainer .docssharedWizToggleLabeledTooltip svg {
+	fill: rgba(0, 0, 0, 0.26);
+}
+.docssharedWizToggleLabeledContent {
+	margin-left: 0.75em; display: flex; min-width: 0%; flex-direction: column; flex-grow: 1; box-flex: 1; box-orient: vertical;
+}
+.docssharedWizToggleLabeledControl {
+	flex-shrink: 0;
+}
+.docssharedWizToggleLabeledPrimaryText {
+	display: flex; min-width: 0%;
+}
+.docssharedWizToggleLabeledHelpIcon {
+	margin-top: -2px; margin-left: 7px; fill: rgba(0, 0, 0, 0.54);
+}
+.docssharedWizToggleLabeledContainer .quantumWizTogglePapercheckboxCheckMarkContainer {
+	will-change: transform;
+}
+.exportLabelWrapper {
+	display: flex; min-width: 0%; flex-shrink: 1;
+}
+.picker-frame {
+	border: 0px currentColor; border-image: none; width: 100%; height: 100%; overflow: hidden;
+}
+.modal-dialog-bg.picker {
+	left: 0px; top: 0px; position: absolute; background-color: rgb(255, 255, 255);
+}
+.modal-dialog.picker {
+	padding: 0px; border: 1px solid rgb(172, 172, 172); transition:top 0.5s ease-in-out; border-image: none; left: 0px; top: 0px; width: auto; overflow: auto; position: absolute; z-index: 1001; box-shadow: 0px 4px 16px rgba(0,0,0,0.2); background-color: rgb(255, 255, 255);
+}
+.picker-min {
+	position: absolute; z-index: 1002;
+}
+.modal-dialog-content.picker {
+	padding: 0px; font-size: 0px;
+}
+.modal-dialog-title.picker {
+	margin: 0px; height: 0px;
+}
+.modal-dialog-title-text.picker {
+	display: none;
+}
+.modal-dialog-buttons.picker {
+	display: none;
+}
+.quantumWizTextinputPapertextareaEl {
+	padding-bottom: 8px; display: inline-block; -ms-user-select: none;
+}
+.quantumWizTextinputPapertextareaMainContent {
+	vertical-align: top; position: relative; min-height: 1.5em;
+}
+.quantumWizTextinputPapertextareaContentArea {
+	padding-top: 14px; display: flex; position: relative;
+}
+.quantumWizTextinputPapertextareaInput {
+	font: 400 16px/24px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; padding: 0px; border: currentColor; border-image: none; height: 24px; display: block; white-space: pre-wrap; z-index: 0; -ms-overflow-x: hidden; -ms-overflow-y: visible; -ms-word-wrap: break-word; min-height: 24px; font-size-adjust: none; font-stretch: normal; flex-grow: 1; flex-shrink: 1; background-color: transparent; box-flex: 1; resize: none;
+}
+.quantumWizTextinputPapertextareaTextCentered.quantumWizTextinputPapertextareaInput {
+	text-align: center;
+}
+.modeDark.quantumWizTextinputPapertextareaEl .quantumWizTextinputPapertextareaInput {
+	color: rgba(255, 255, 255, 0.87);
+}
+.modeDark.isFocused.quantumWizTextinputPapertextareaEl .quantumWizTextinputPapertextareaInput {
+	color: rgb(255, 255, 255);
+}
+.quantumWizTextinputPapertextareaUnderline {
+	margin: 0px; padding: 0px; left: 0px; width: 100%; height: 1px; position: absolute; background-color: rgba(0, 0, 0, 0.12);
+}
+.modeDark.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaUnderline {
+	background-color: rgba(255, 255, 255, 0.12);
+}
+.quantumWizTextinputPapertextareaFocusUnderline {
+	margin: 0px; padding: 0px; left: 0px; width: 100%; height: 2px; position: absolute; transform: scaleX(0); background-color: rgb(66, 133, 244);
+}
+.quantumWizTextinputPaperinputHasError.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaUnderline {
+	height: 2px; background-color: rgb(213, 0, 0);
+}
+.quantumWizTextinputPaperinputHasError.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaFocusUnderline {
+	height: 2px; background-color: rgb(213, 0, 0);
+}
+.modeDark.quantumWizTextinputPaperinputHasError.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaUnderline {
+	background-color: rgb(255, 110, 110);
+}
+.modeDark.quantumWizTextinputPaperinputHasError.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaFocusUnderline {
+	background-color: rgb(255, 110, 110);
+}
+.isDisabled.quantumWizTextinputPapertextareaEl .quantumWizTextinputPapertextareaInput {
+	color: rgba(0, 0, 0, 0.38);
+}
+.isDisabled.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaUnderline {
+	background: none; border-bottom-color: rgba(0, 0, 0, 0.38); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.animationInitialized.quantumWizTextinputPapertextareaFocusUnderline {
+	animation:quantumWizPaperInputRemoveUnderline 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.isFocused.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaFocusUnderline {
+	animation:quantumWizPaperInputAddUnderline 0.3s cubic-bezier(0.4, 0, 0.2, 1); transform: scaleX(1);
+}
+.quantumWizTextinputPapertextareaFloatingLabelEnabled.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent {
+	padding-top: 24px;
+}
+.quantumWizTextinputPapertextareaFloatingLabel {
+	font: 400 16px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; transform-origin: left top; transition:; top: 100%; width: 100%; color: rgba(0, 0, 0, 0.38); position: absolute; font-size-adjust: none; font-stretch: normal; pointer-events: none; transform: translate(0px, -22px);
+}
+.isFocused.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaFloatingLabel {
+	top: 16px; transform: scale(0.75);
+}
+.hasValue.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaFloatingLabel {
+	top: 16px; transform: scale(0.75);
+}
+.modeDark.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaFloatingLabel {
+	color: rgba(255, 255, 255, 0.38);
+}
+.isFocused.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaFloatingLabel {
+	color: rgb(66, 133, 244);
+}
+.modeDark.isFocused.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaFloatingLabel {
+	color: rgb(66, 133, 244);
+}
+.quantumWizTextinputPapertextareaPlaceholder {
+	font: 400 16px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; bottom: 3px; color: rgba(0, 0, 0, 0.38); overflow: hidden; white-space: nowrap; position: absolute; -ms-text-overflow: ellipsis; max-width: 100%; font-size-adjust: none; font-stretch: normal; pointer-events: none;
+}
+.modeDark.quantumWizTextinputPapertextareaEl .quantumWizTextinputPapertextareaPlaceholder {
+	color: rgba(255, 255, 255, 0.38);
+}
+.hasValue.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaMainContent > .quantumWizTextinputPapertextareaPlaceholder {
+	display: none;
+}
+.quantumWizTextinputPapertextareaCharCounter {
+	font: 400 12px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; height: 16px; text-align: right; color: rgba(0, 0, 0, 0.38); padding-top: 8px; position: relative; font-size-adjust: none; font-stretch: normal; pointer-events: none;
+}
+.modeDark.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaCharCounter {
+	color: rgba(255, 255, 255, 0.38);
+}
+.quantumWizTextinputPapertextareaHintOrErrorEnabled.quantumWizTextinputPapertextareaEl {
+	padding-bottom: 4px;
+}
+.quantumWizTextinputPapertextareaError {
+	font: 400 12px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding-top: 4px; min-height: 16px; font-size-adjust: none; font-stretch: normal;
+}
+:not(:empty).quantumWizTextinputPapertextareaHint {
+	font: 400 12px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding-top: 4px; min-height: 16px; font-size-adjust: none; font-stretch: normal;
+}
+.quantumWizTextinputPapertextareaHint {
+	pointer-events: none;
+}
+.quantumWizTextinputPapertextareaError {
+	color: rgb(213, 0, 0);
+}
+.modeDark.quantumWizTextinputPapertextareaEl .quantumWizTextinputPapertextareaError {
+	color: rgb(255, 110, 110);
+}
+.quantumWizTextinputPapertextareaHint {
+	opacity: 0.3;
+}
+.quantumWizTextinputPaperinputHasError.quantumWizTextinputPapertextareaEl > .quantumWizTextinputPapertextareaHint {
+	display: none;
+}
+:not(.quantumWizTextinputPaperinputHasError).quantumWizTextinputPapertextareaEl > :not(:empty).quantumWizTextinputPapertextareaHint + .quantumWizTextinputPapertextareaError {
+	display: none;
+}
+.quantumWizTextinputSimpleinputEl {
+	width: 200px; display: inline-block; -ms-user-select: none;
+}
+.quantumWizTextinputSimpleinputMainContent {
+	vertical-align: top; position: relative;
+}
+.quantumWizTextinputSimpleinputContentArea {
+	display: flex;
+}
+.quantumWizTextinputSimpleinputInput {
+	font: 400 16px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; padding: 0.12em 0px; border: currentColor; border-image: none; display: block; z-index: 0; min-width: 0%; font-size-adjust: none; font-stretch: normal; flex-grow: 1; flex-shrink: 1; background-color: transparent; box-flex: 1;
+}
+.quantumWizTextinputSimpleinputContentAreaWithEmbeddedContent > .quantumWizTextinputSimpleinputInput::-ms-clear {
+	display: none;
+}
+.quantumWizTextinputSimpleinputContentAreaWithEmbeddedContent > .quantumWizTextinputSimpleinputInput::-ms-reveal {
+	display: none;
+}
+.quantumWizTextinputSimpleinputUnderline {
+	margin: 0px; padding: 0px; width: 100%; height: 1px; background-color: rgba(0, 0, 0, 0.12);
+}
+.quantumWizTextinputSimpleinputFocusUnderline {
+	margin: 0px; padding: 0px; width: 100%; height: 2px; transform: scaleX(0); background-color: rgb(3, 169, 244);
+}
+.isDisabled.quantumWizTextinputSimpleinputEl .quantumWizTextinputSimpleinputInput {
+	color: rgba(0, 0, 0, 0.38);
+}
+.isDisabled.quantumWizTextinputSimpleinputEl > .quantumWizTextinputSimpleinputMainContent > .quantumWizTextinputSimpleinputUnderline {
+	background: none; border-bottom-color: rgba(0, 0, 0, 0.38); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.animationInitialized.quantumWizTextinputSimpleinputFocusUnderline {
+	animation:quantumWizSimpleInputRemoveUnderline 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.isFocused.quantumWizTextinputSimpleinputEl > .quantumWizTextinputSimpleinputMainContent > .quantumWizTextinputSimpleinputFocusUnderline {
+	animation:quantumWizSimpleInputAddUnderline 0.3s cubic-bezier(0.4, 0, 0.2, 1); transform: scaleX(1);
+}
+.quantumWizTextinputSimpleinputPlaceholder {
+	font: 400 16px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; color: rgba(0, 0, 0, 0.38); overflow: hidden; white-space: nowrap; position: absolute; -ms-text-overflow: ellipsis; max-width: 100%; font-size-adjust: none; font-stretch: normal; pointer-events: none;
+}
+.hasValue.quantumWizTextinputSimpleinputEl > .quantumWizTextinputSimpleinputMainContent > .quantumWizTextinputSimpleinputPlaceholder {
+	display: none;
+}
+.quantumWizTogglePapercheckboxEl {
+	border-radius: 3px; border: 10px solid rgba(0, 0, 0, 0.54); transition:border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1); border-image: none; overflow: visible; vertical-align: middle; display: inline-block; position: relative; z-index: 0; cursor: pointer; max-height: 0px; max-width: 0px; box-sizing: content-box; -ms-user-select: none;
+}
+[aria-checked='true'].quantumWizTogglePapercheckboxColored.quantumWizTogglePapercheckboxEl {
+	border-color: rgb(0, 150, 136);
+}
+[aria-checked='mixed'].quantumWizTogglePapercheckboxColored.quantumWizTogglePapercheckboxEl {
+	border-color: rgb(0, 150, 136);
+}
+[aria-disabled='true'].quantumWizTogglePapercheckboxEl {
+	border-color: rgb(189, 189, 189); cursor: default;
+}
+[aria-disabled='true'][aria-checked='true'].quantumWizTogglePapercheckboxColored.quantumWizTogglePapercheckboxEl {
+	border-color: rgb(189, 189, 189);
+}
+[aria-disabled='true'][aria-checked='mixed'].quantumWizTogglePapercheckboxColored.quantumWizTogglePapercheckboxEl {
+	border-color: rgb(189, 189, 189);
+}
+.quantumWizTogglePapercheckboxInnerBox {
+	border: 8px solid white; transition:; border-image: none; left: -8px; top: -8px; position: absolute;
+}
+[aria-checked='true'] > .quantumWizTogglePapercheckboxInnerBox {
+	border-radius: 100%; transition:transform 0.1s cubic-bezier(0.4, 0, 0.2, 1); transform: scale(0);
+}
+[aria-checked='mixed'] > .quantumWizTogglePapercheckboxInnerBox {
+	border-radius: 100%; transition:transform 0.1s cubic-bezier(0.4, 0, 0.2, 1); transform: scale(0);
+}
+.isIndeterminate .quantumWizTogglePapercheckboxCheckMark {
+	left: 5px; top: 2px;
+}
+.isChecked .quantumWizTogglePapercheckboxCheckMark {
+	transform-origin: 0% 50%; left: 10px; top: 7px; transform: rotate(-45deg);
+}
+.quantumWizTogglePapercheckboxCheckMark {
+	width: 100%; height: 100%; position: absolute; pointer-events: none;
+}
+.quantumWizTogglePapercheckboxCheckMarkContainer {
+	animation:quantumWizPaperAnimateCheckMarkOut 0.2s forwards; left: -10px; top: -10px; width: 20px; height: 20px; position: absolute; clip: rect(0px, 20px, 20px, 0px);
+}
+[aria-checked='true'] > .quantumWizTogglePapercheckboxCheckMarkContainer {
+	animation:quantumWizPaperAnimateCheckMarkIn 0.2s 0.1s forwards; clip: rect(0px, 20px, 20px, 20px);
+}
+[aria-checked='mixed'] > .quantumWizTogglePapercheckboxCheckMarkContainer {
+	animation:quantumWizPaperAnimateCheckMarkIn 0.2s 0.1s forwards; clip: rect(0px, 20px, 20px, 20px);
+}
+@media print
+{
+[aria-checked='true'] > .quantumWizTogglePapercheckboxCheckMarkContainer {
+	clip: auto;
+}
+[aria-checked='mixed'] > .quantumWizTogglePapercheckboxCheckMarkContainer {
+	clip: auto;
+}
+}
+.isIndeterminate .quantumWizTogglePapercheckboxShort {
+	display: none;
+}
+.quantumWizTogglePapercheckboxShort {
+	border: 1px solid rgb(255, 255, 255); border-image: none; left: 0px; height: 5px; position: absolute;
+}
+.isIndeterminate .quantumWizTogglePapercheckboxLong {
+	top: 7px; width: 8px;
+}
+.isChecked .quantumWizTogglePapercheckboxLong {
+	width: 11px;
+}
+.quantumWizTogglePapercheckboxLong {
+	border: 1px solid rgb(255, 255, 255); border-image: none; left: 0px; top: 5px; position: absolute;
+}
+.quantumWizTogglePapercheckboxInk {
+	outline: transparent solid 0.1px; border-radius: 100%; transition:opacity 0.15s; left: -10px; top: -10px; width: 20px; height: 20px; position: absolute; z-index: -1; opacity: 0; pointer-events: none; transform: scale(2.5); background-color: rgba(0, 0, 0, 0.2);
+}
+.isActive > .quantumWizTogglePapercheckboxInk {
+	animation:quantumWizRadialInkSpread 0.3s forwards; opacity: 1;
+}
+.isCheckedNext > .quantumWizTogglePapercheckboxInk {
+	background-color: rgba(0, 150, 136, 0.2);
+}
+.isFocused > .quantumWizTogglePapercheckboxInk {
+	animation:quantumWizRadialInkFocusPulse 0.7s infinite alternate; opacity: 1; background-color: rgba(0, 150, 136, 0.2);
+}
+.quantumWizTogglePaperradioEl {
+	border-radius: 3px; transition:border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1); width: 20px; height: 20px; vertical-align: middle; display: inline-block; position: relative; z-index: 0; cursor: pointer; box-sizing: content-box; -ms-user-select: none;
+}
+.quantumWizTogglePaperradioRadioContainer {
+	animation:quantumWizPaperAnimateSelectOut 0.2s forwards; width: 20px; height: 20px; position: relative; cursor: pointer;
+}
+[aria-checked='true'] > .quantumWizTogglePaperradioRadioContainer {
+	animation:quantumWizPaperAnimateSelectIn 0.2s 0.1s forwards;
+}
+.quantumWizTogglePaperradioOffRadio {
+	border-radius: 50%; border: 2px solid rgba(0, 0, 0, 0.54); border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; position: absolute;
+}
+.isChecked .quantumWizTogglePaperradioOffRadio {
+	border-color: rgb(0, 150, 136);
+}
+.quantumWizTogglePaperradioOnRadio {
+	border-radius: 50%; border: 5px solid rgb(0, 150, 136); transition:transform 0.28s; border-image: none; left: 50%; top: 50%; position: absolute; transform: translateX(-50%) translateY(-50%) scale(0);
+}
+[aria-checked='true'] .quantumWizTogglePaperradioOnRadio {
+	transform: translateX(-50%) translateY(-50%) scale(1);
+}
+[aria-disabled='true'].quantumWizTogglePaperradioEl {
+	cursor: default; pointer-events: none;
+}
+[aria-disabled='true'][aria-checked='true'] .quantumWizTogglePaperradioOnRadio {
+	border-color: rgba(0, 0, 0, 0.26);
+}
+[aria-disabled='true'] .quantumWizTogglePaperradioOffRadio {
+	border-color: rgba(0, 0, 0, 0.26);
+}
+.quantumWizTogglePaperradioInk {
+	outline: transparent solid 0.1px; border-radius: 100%; transition:opacity 0.15s; left: 0px; width: 20px; height: 20px; position: absolute; z-index: -1; opacity: 0; pointer-events: none; transform: scale(3); background-color: rgba(0, 0, 0, 0.2);
+}
+.isActive > .quantumWizTogglePaperradioInk {
+	animation:quantumWizRadialInkSpread 0.3s forwards; opacity: 1;
+}
+.isCheckedNext > .quantumWizTogglePaperradioInk {
+	background-color: rgba(0, 150, 136, 0.2);
+}
+.isFocused > .quantumWizTogglePaperradioInk {
+	animation:quantumWizRadialInkFocusPulse 0.7s infinite alternate; opacity: 1; background-color: rgba(0, 150, 136, 0.2);
+}
+.quantumWizTogglePapertoggleEl {
+	width: 37px; height: 20px; vertical-align: middle; display: inline-block; position: relative; z-index: 0; cursor: pointer; box-sizing: content-box; -ms-user-select: none;
+}
+[aria-disabled='true'].quantumWizTogglePapertoggleEl {
+	cursor: default;
+}
+.quantumWizTogglePapertoggleThumb {
+	border-radius: 100%; border: 10px solid rgb(250, 250, 250); transition:border-color 0.3s; border-image: none; position: absolute; box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+[aria-checked='true'] .quantumWizTogglePapertoggleThumb {
+	border-color: rgb(0, 150, 136);
+}
+[aria-disabled='true'] .quantumWizTogglePapertoggleThumb {
+	border-color: rgb(189, 189, 189);
+}
+[aria-disabled='true'].quantumWizTogglePapertoggleColored .quantumWizTogglePapertoggleThumb {
+	border-color: rgb(189, 189, 189);
+}
+.quantumWizTogglePapertoggleCircles {
+	transition:transform 0.06s;
+}
+.isChecked.quantumWizTogglePapertoggleEl > .quantumWizTogglePapertoggleCircles {
+	transform: translate(17px);
+}
+.isIndeterminate.quantumWizTogglePapertoggleEl > .quantumWizTogglePapertoggleCircles {
+	transform: translate(8.5px);
+}
+.quantumWizTogglePapertoggleTrack {
+	border-radius: 7px; border: 7px solid rgb(185, 185, 185); transition:border-color 0.3s; border-image: none; top: 3px; width: 23px; position: absolute;
+}
+[aria-checked='true'] > .quantumWizTogglePapertoggleTrack {
+	border-color: rgba(0, 150, 136, 0.502);
+}
+[aria-disabled='true'] > .quantumWizTogglePapertoggleTrack {
+	border-color: rgb(185, 185, 185);
+}
+[aria-checked='mixed'] .quantumWizTogglePapertoggleThumb {
+	border-color: rgb(244, 180, 0);
+}
+[aria-checked='mixed'] .quantumWizTogglePapertoggleTrack {
+	border-color: rgb(224, 224, 224);
+}
+[aria-checked='mixed'] .quantumWizTogglePapertoggleInk {
+	left: 8.5px;
+}
+.quantumWizTogglePapertoggleInk {
+	outline: transparent solid 0.1px; border-radius: 100%; transition:opacity 0.15s, left 0.3s; left: 0px; width: 20px; height: 20px; position: absolute; z-index: -1; opacity: 0; pointer-events: none; transform: scale(2.5); background-color: rgba(0, 0, 0, 0.2);
+}
+.isActive > .quantumWizTogglePapertoggleInk {
+	animation:quantumWizRadialInkSpread 0.3s forwards; opacity: 1;
+}
+[aria-checked='true'] > .quantumWizTogglePapertoggleInk {
+	left: 17px;
+}
+.isCheckedNext > .quantumWizTogglePapertoggleInk {
+	background-color: rgba(0, 150, 136, 0.2);
+}
+.isFocused > .quantumWizTogglePapertoggleInk {
+	animation:quantumWizRadialInkFocusPulse 0.7s infinite alternate; opacity: 1; background-color: rgba(0, 150, 136, 0.2);
+}
+.jfk-checkbox {
+	margin: 0px 4px 0px 1px; outline: 0px; border-radius: 1px; border: 1px solid rgba(155, 155, 155, 0.57); border-image: none; width: 11px; height: 11px; font-size: 1px; vertical-align: text-bottom; background-color: rgba(255, 255, 255, 0.05);
+}
+.jfk-checkbox-undetermined {
+	background-color: rgba(255, 255, 255, 0.65);
+}
+.jfk-checkbox-checked {
+	background-color: rgba(255, 255, 255, 0.65);
+}
+.jfk-checkbox-hover {
+	border: 1px solid rgb(178, 178, 178); border-image: none; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.1);
+}
+.jfk-checkbox-active {
+	background-color: rgb(235, 235, 235);
+}
+.jfk-checkbox-focused {
+	border: 1px solid rgb(77, 144, 254); border-image: none;
+}
+.jfk-checkbox-focused.jfk-checkbox-clearOutline {
+	border: 1px solid rgba(155, 155, 155, 0.57); border-image: none;
+}
+.jfk-checkbox-disabled {
+	border: 1px solid rgb(241, 241, 241); border-image: none; cursor: default; background-color: rgb(255, 255, 255);
+}
+.jfk-checkbox-disabled.jfk-checkbox-clearOutline {
+	border: 1px solid rgb(241, 241, 241); border-image: none; cursor: default; background-color: rgb(255, 255, 255);
+}
+.jfk-checkbox-checkmark {
+	outline: 0px; left: 0px; top: -3px; width: 15px; height: 15px; position: relative;
+}
+.jfk-checkbox-undetermined .jfk-checkbox-checkmark {
+	background: url("//ssl.gstatic.com/ui/v1/menu/checkmark-partial.png") no-repeat -5px -3px;
+}
+.jfk-checkbox-checked .jfk-checkbox-checkmark {
+	background: url("//ssl.gstatic.com/ui/v1/menu/checkmark.png") no-repeat -5px -3px;
+}
+.companion-shellopener-icon {
+	background: rgb(204, 204, 204); top: 19px; width: 40px; height: 30px; right: 0px; position: absolute; z-index: 99; cursor: pointer; border-top-left-radius: 20px; border-bottom-left-radius: 20px;
+}
+.companion-shellopener-texticon {
+	text-align: center; font-size: 20px; font-weight: bold;
+}
+.quantumWizCommonPositioningScrollableHost {
+	position: relative;
+}
+.quantumWizButtonPaperbuttonEl {
+	border-radius: 3px; border: 0px currentColor; transition:background 0.2s 0.1s; border-image: none; text-align: center; text-transform: uppercase; overflow: hidden; font-size: 14px; font-weight: 500; display: inline-block; position: relative; z-index: 0; cursor: pointer; min-width: 4em; -ms-user-select: none;
+}
+.quantumWizButtonPaperbuttonDense {
+	line-height: 16px; font-size: 13px;
+}
+.quantumWizButtonPaperbuttonRaised {
+	background: rgb(223, 223, 223); transition:box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12), 0px 1px 5px 0px rgba(0,0,0,0.2);
+}
+.isActive.quantumWizButtonPaperbuttonRaised {
+	transition:background 0.8s; box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12), 0px 5px 5px -3px rgba(0,0,0,0.2);
+}
+.quantumWizButtonPaperbuttonRaisedColored {
+	background: rgb(66, 133, 244); color: rgb(255, 255, 255);
+}
+.quantumWizButtonPaperbuttonRaisedColored a {
+	background: rgb(66, 133, 244); color: rgb(255, 255, 255);
+}
+.quantumWizButtonPaperbuttonRaisedColored a:hover {
+	background: rgb(66, 133, 244); color: rgb(255, 255, 255);
+}
+.quantumWizButtonPaperbuttonRaisedColored a:visited {
+	background: rgb(66, 133, 244); color: rgb(255, 255, 255);
+}
+.quantumWizButtonPaperbuttonFlatColored {
+	color: rgb(66, 133, 244);
+}
+.quantumWizButtonPaperbuttonFlatColored a {
+	color: rgb(66, 133, 244);
+}
+.quantumWizButtonPaperbuttonDark {
+	color: rgb(255, 255, 255);
+}
+.quantumWizButtonPaperbuttonDark a {
+	color: rgb(255, 255, 255);
+}
+.quantumWizButtonPaperbuttonFocusOverlay {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; background-color: transparent;
+}
+.isFocused.quantumWizButtonPaperbuttonEl .quantumWizButtonPaperbuttonFocusOverlay {
+	background-color: rgba(0, 0, 0, 0.12);
+}
+.isFocused.quantumWizButtonPaperbuttonDark .quantumWizButtonPaperbuttonFocusOverlay {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.isFocused.quantumWizButtonPaperbuttonRaisedColored .quantumWizButtonPaperbuttonFocusOverlay {
+	background-color: rgb(47, 121, 245);
+}
+.isFocused.quantumWizButtonPaperbuttonFlatColored .quantumWizButtonPaperbuttonFocusOverlay {
+	background-color: rgba(66, 133, 244, 0.149);
+}
+.quantumWizButtonPaperbuttonRipple {
+	transition:opacity 0.2s, visibility 0s 0.2s, -webkit-transform 0s 0.2s; left: 0px; top: 0px; visibility: hidden; position: absolute; opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(0); background-size: cover;
+}
+.isActive.quantumWizButtonPaperbuttonEl .quantumWizButtonPaperbuttonRipple {
+	visibility: visible; opacity: 1; transform: translate(-50%, -50%) scale(2.2);
+}
+.isUndragged.isActive.quantumWizButtonPaperbuttonEl .quantumWizButtonPaperbuttonRipple {
+	transition:transform 0.3s cubic-bezier(0, 0, 0.2, 1), opacity 0.2s cubic-bezier(0, 0, 0.2, 1);
+}
+.isDeactivating.quantumWizButtonPaperbuttonEl .quantumWizButtonPaperbuttonRipple {
+	visibility: visible; transform: translate(-50%, -50%) scale(2.2);
+}
+.quantumWizButtonPaperbuttonFlat .quantumWizButtonPaperbuttonRipple {
+	background-image: radial-gradient(circle farthest-side, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) 80%, rgba(0, 0, 0, 0) 100%);
+}
+.quantumWizButtonPaperbuttonRaised .quantumWizButtonPaperbuttonRipple {
+	background-image: radial-gradient(circle farthest-side, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) 80%, rgba(0, 0, 0, 0) 100%);
+}
+.quantumWizButtonPaperbuttonFlatColored .quantumWizButtonPaperbuttonRipple {
+	background-image: radial-gradient(circle farthest-side, rgba(66, 133, 244, 0.251), rgba(66, 133, 244, 0.251) 80%, rgba(66, 133, 244, 0) 100%);
+}
+.quantumWizButtonPaperbuttonRaisedColored .quantumWizButtonPaperbuttonRipple {
+	background-image: radial-gradient(circle farthest-side, rgb(42, 86, 198), rgb(42, 86, 198) 80%, rgba(42, 86, 198, 0) 100%);
+}
+.quantumWizButtonPaperbuttonDark .quantumWizButtonPaperbuttonRipple {
+	background-image: radial-gradient(circle farthest-side, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0) 100%);
+}
+.isDisabled.quantumWizButtonPaperbuttonEl {
+	color: rgba(68, 68, 68, 0.502); cursor: default; fill: rgba(68, 68, 68, 0.502); box-shadow: none;
+}
+.isDisabled.quantumWizButtonPaperbuttonRaised {
+	background: rgba(153, 153, 153, 0.102);
+}
+.isDisabled.quantumWizButtonPaperbuttonDark {
+	color: rgba(255, 255, 255, 0.502); fill: rgba(255, 255, 255, 0.502);
+}
+.isDisabled.quantumWizButtonPaperbuttonRaised.quantumWizButtonPaperbuttonDark {
+	background: rgba(204, 204, 204, 0.102);
+}
+.quantumWizButtonPaperbuttonContent {
+	position: relative;
+}
+.quantumWizButtonPaperbuttonLabel {
+	margin: 0.5em; display: inline-block;
+}
+.quantumWizButtonPaperbutton2El2 {
+	line-height: 20px; min-width: 88px;
+}
+.quantumWizButtonPaperbutton2El2 .quantumWizButtonPaperbuttonLabel {
+	margin: 8px;
+}
+.quantumWizSpinnerSpinner {
+	width: 28px; height: 28px; display: inline-block; position: relative;
+}
+.quantumWizSpinnerMessageContainer {
+	width: 0px; height: 0px; overflow: hidden; position: absolute;
+}
+.quantumWizSpinnerSpinnerContainer {
+	width: 100%; height: 100%;
+}
+.isActive.quantumWizSpinnerSpinner .quantumWizSpinnerSpinnerContainer {
+	animation:spinner-container-rotate 1568ms linear infinite;
+}
+.quantumWizSpinnerSpinnerLayer {
+	width: 100%; height: 100%; position: absolute; opacity: 0;
+}
+.quantumWizSpinnerColorOne {
+	border-color: rgb(66, 133, 244);
+}
+.quantumWizSpinnerColorTwo {
+	border-color: rgb(219, 68, 55);
+}
+.quantumWizSpinnerColorThree {
+	border-color: rgb(244, 180, 0);
+}
+.quantumWizSpinnerColorFour {
+	border-color: rgb(15, 157, 88);
+}
+.isActive.quantumWizSpinnerSpinner .quantumWizSpinnerColorOne.quantumWizSpinnerSpinnerLayer {
+	animation:spinner-fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, spinner-blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+}
+.isActive.quantumWizSpinnerSpinner .quantumWizSpinnerColorTwo.quantumWizSpinnerSpinnerLayer {
+	animation:spinner-fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, spinner-red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+}
+.isActive.quantumWizSpinnerSpinner .quantumWizSpinnerColorThree.quantumWizSpinnerSpinnerLayer {
+	animation:spinner-fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, spinner-yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+}
+.isActive.quantumWizSpinnerSpinner .quantumWizSpinnerColorFour.quantumWizSpinnerSpinnerLayer {
+	animation:spinner-fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, spinner-green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+}
+.quantumWizSpinnerGapPatch {
+	border-color: inherit; left: 45%; top: 0px; width: 10%; height: 100%; overflow: hidden; position: absolute; box-sizing: border-box;
+}
+.quantumWizSpinnerGapPatch .quantumWizSpinnerCircle {
+	left: -450%; width: 1000%;
+}
+.quantumWizSpinnerCircleClipper {
+	border-color: inherit; width: 50%; height: 100%; overflow: hidden; display: inline-block; position: relative;
+}
+.quantumWizSpinnerCircleClipper .quantumWizSpinnerCircle {
+	width: 200%;
+}
+.quantumWizSpinnerCircle {
+	border-width: 3px; border-style: solid; border-radius: 50%; animation:none; left: 0px; top: 0px; height: 100%; right: 0px; bottom: 0px; border-top-color: inherit; border-right-color: inherit; border-bottom-color: transparent; border-left-color: inherit; position: absolute; box-sizing: border-box;
+}
+.quantumWizSpinnerLeft.quantumWizSpinnerCircleClipper .quantumWizSpinnerCircle {
+	border-right-color: transparent; transform: rotate(129deg);
+}
+.quantumWizSpinnerRight.quantumWizSpinnerCircleClipper .quantumWizSpinnerCircle {
+	left: -100%; border-left-color: transparent; transform: rotate(-129deg);
+}
+.isActive.quantumWizSpinnerSpinner .quantumWizSpinnerLeft.quantumWizSpinnerCircleClipper .quantumWizSpinnerCircle {
+	animation:spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+}
+.isActive.quantumWizSpinnerSpinner .quantumWizSpinnerRight.quantumWizSpinnerCircleClipper .quantumWizSpinnerCircle {
+	animation:spinner-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+}
+.isWarmdown.quantumWizSpinnerSpinner .quantumWizSpinnerSpinnerContainer {
+	animation:spinner-container-rotate 1568ms linear infinite, spinner-fade-out 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.quantumWizDialogBackground {
+	transition:opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0.15s; left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 5000; opacity: 0; background-color: rgba(0, 0, 0, 0.502);
+}
+:not([isFullscreen='true']).quantumWizDialogBackground + .Background {
+	background: none;
+}
+.isOpen.quantumWizDialogBackground {
+	transition:opacity 0.05s cubic-bezier(0.4, 0, 0.2, 1); opacity: 1;
+}
+.quantumWizDialogLayout {
+	padding: 0px 5%; transition:transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); left: 0px; top: 0px; right: 0px; bottom: 0px; display: flex; position: absolute; backface-visibility: hidden; flex-direction: column; align-items: center; box-align: center; box-orient: vertical;
+}
+.quantumWizDialogBackgroundTop {
+	height: 3em; display: block;
+}
+.quantumWizDialogBackgroundBottom {
+	height: 3em; display: block;
+}
+.quantumWizDialogPositionDefault > .quantumWizDialogBackgroundTop {
+	flex-grow: 1; box-flex: 1;
+}
+.quantumWizDialogPositionDefault > .quantumWizDialogBackgroundBottom {
+	flex-grow: 1; box-flex: 1;
+}
+.quantumWizDialogEl {
+	max-height: 100%; flex-shrink: 1;
+}
+.quantumWizDialogPaperdialogEl {
+	border-radius: 2px; transition:transform 0.225s cubic-bezier(0, 0, 0.2, 1); overflow: hidden; display: flex; position: relative; max-width: 24em; box-shadow: 0px 12px 15px 0px rgba(0,0,0,0.24); flex-direction: column; align-items: stretch; background-color: rgb(255, 255, 255); box-align: stretch; box-orient: vertical;
+}
+.quantumWizDialogPaperdialogPositionFullScreen .quantumWizDialogPaperdialogEl {
+	padding: 0px;
+}
+.isClosing.quantumWizDialogPaperdialogEl {
+	transition:transform 0.15s cubic-bezier(0.4, 0, 1, 1);
+}
+.isOpening.quantumWizDialogPaperdialogTransitionZoom {
+	transform: scale(0.8);
+}
+.isClosing.quantumWizDialogPaperdialogTransitionZoom {
+	transform: scale(0.9);
+}
+.isOpening.quantumWizDialogPaperdialogTransitionSlide {
+	transform: translateY(50%);
+}
+.isClosing.quantumWizDialogPaperdialogTransitionSlide {
+	transform: translateY(50%);
+}
+.isOpening.quantumWizDialogPaperdialogTransitionZoomSlide {
+	transform: scale(0.8) translateY(100%);
+}
+.quantumWizDialogPaperdialogPositionMiddle > .quantumWizDialogBackgroundTop {
+	flex-grow: 1; box-flex: 1;
+}
+.quantumWizDialogPaperdialogPositionMiddle > .quantumWizDialogBackgroundBottom {
+	flex-grow: 1; box-flex: 1;
+}
+.quantumWizDialogPaperdialogPositionAboveMiddle > .quantumWizDialogBackgroundTop {
+	flex-grow: 1; box-flex: 1;
+}
+.quantumWizDialogPaperdialogPositionAboveMiddle > .quantumWizDialogBackgroundBottom {
+	flex-grow: 2; box-flex: 2;
+}
+.quantumWizDialogPaperdialogPositionTop > .quantumWizDialogBackgroundTop {
+	flex-grow: 0; box-flex: 0;
+}
+.quantumWizDialogPaperdialogPositionTop > .quantumWizDialogBackgroundBottom {
+	flex-grow: 1; box-flex: 1;
+}
+.quantumWizDialogPaperdialogPositionExpand > .quantumWizDialogBackgroundTop {
+	flex-grow: 1; box-flex: 1;
+}
+.quantumWizDialogPaperdialogPositionExpand > .quantumWizDialogPaperdialogEl {
+	flex-grow: 2; box-flex: 2;
+}
+.quantumWizDialogPaperdialogPositionExpand > .quantumWizDialogBackgroundBottom {
+	flex-grow: 1; box-flex: 1;
+}
+.quantumWizDialogPaperdialogPositionFullScreen {
+	padding: 0px; align-items: stretch; box-align: stretch;
+}
+.quantumWizDialogPaperdialogPositionFullScreen > .quantumWizDialogPaperdialogEl {
+	border-radius: 0px; left: 0px; right: 0px; max-width: 100%; flex-grow: 2; box-flex: 2;
+}
+.quantumWizDialogPaperdialogPositionFullScreen > .quantumWizDialogBackgroundBottom {
+	height: 0px; flex-grow: 0; box-flex: 0;
+}
+.quantumWizDialogPaperdialogPositionFullScreen > .quantumWizDialogBackgroundTop {
+	height: 0px; flex-grow: 0; box-flex: 0;
+}
+.quantumWizDialogPaperdialogTitleBar {
+	font: 500 20px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding: 24px 24px 20px; display: flex; font-size-adjust: none; font-stretch: normal; flex-shrink: 0;
+}
+.quantumWizDialogPaperdialogPositionFullScreen .quantumWizDialogPaperdialogTitleBar {
+	display: none;
+}
+.quantumWizDialogPaperdialogTitleBarFullScreen {
+	font: 500 20px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; color: white; display: none; font-size-adjust: none; font-stretch: normal; box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.24); flex-shrink: 0; justify-content: space-between; background-color: rgb(69, 90, 100); box-pack: justify;
+}
+.quantumWizDialogPaperdialogPositionFullScreen .quantumWizDialogPaperdialogTitleBarFullScreen {
+	display: flex;
+}
+.quantumWizDialogPaperdialogTitleText {
+	overflow: hidden; -ms-word-wrap: break-word; flex-grow: 1; flex-shrink: 1; box-flex: 1;
+}
+.quantumWizDialogPaperdialogTitleBarFullScreen .quantumWizDialogPaperdialogTitleText {
+	margin: 16px 0px;
+}
+.quantumWizDialogPaperdialogTitleClose {
+	height: 0px;
+}
+.quantumWizDialogPaperdialogTitleBarFullScreen .quantumWizDialogPaperdialogTitleClose {
+	display: none;
+}
+.quantumWizDialogPaperdialogTitleBar .quantumWizDialogPaperdialogFullScreenTitleClose {
+	display: none;
+}
+.quantumWizDialogPaperdialogTitle .quantumWizDialogPaperdialogCloseButton {
+	margin: -12px -6px 0px 0px; display: block; flex-shrink: 0;
+}
+.quantumWizDialogPaperdialogContent {
+	font: 400 14px/20px Roboto, RobotoDraft, Helvetica, Arial, sans-serif; padding: 0px 24px; display: block; -ms-overflow-y: auto; font-size-adjust: none; font-stretch: normal; flex-grow: 2; flex-shrink: 2; box-flex: 2;
+}
+.quantumWizDialogPaperdialogNoTitleBar .quantumWizDialogPaperdialogContent {
+	padding-top: 24px;
+}
+.quantumWizDialogPaperdialogNoButtons .quantumWizDialogPaperdialogContent {
+	padding-bottom: 24px;
+}
+.quantumWizDialogPaperdialogPositionFullScreen .quantumWizDialogPaperdialogContent {
+	padding: 16px;
+}
+.quantumWizDialogPaperdialogBottomButtons {
+	padding: 24px 24px 16px; display: flex; flex-shrink: 0; justify-content: flex-end; box-pack: end;
+}
+.quantumWizDialogPaperdialogPositionFullScreen .quantumWizDialogPaperdialogBottomButtons {
+	display: none;
+}
+.quantumWizDialogPaperdialogTopButtons {
+	display: none; justify-content: flex-end; box-pack: end;
+}
+.quantumWizDialogPaperdialogPositionFullScreen .quantumWizDialogPaperdialogTopButtons {
+	margin: 0px 16px; display: flex; align-items: flex-start; box-align: start;
+}
+.quantumWizButtonPaperbutton2El2.quantumWizButtonPaperbuttonEl.quantumWizDialogPaperdialogDialogButton {
+	min-width: 64px;
+}
+.quantumWizDialogPaperdialogBottomButtons .quantumWizButtonPaperbutton2El2.quantumWizButtonPaperbuttonEl {
+	min-width: 64px;
+}
+.quantumWizDialogPaperdialogDialogButton + .quantumWizDialogPaperdialogDialogButton {
+	margin-left: 8px;
+}
+.quantumWizDialogPaperdialogTitleBarFullScreen .quantumWizDialogPaperdialogDialogButton {
+	color: rgb(255, 255, 255); margin-top: 10px;
+}
+.quantumWizDialogPaperdialogTitleBarFullScreen .quantumWizDialogPaperdialogCloseButton {
+	margin: 4px 24px 4px 0px;
+}
+.quantumWizDialogPaperdialogTitleBarFullScreen .isFocused.quantumWizDialogPaperdialogDialogButton {
+	background-color: rgba(204, 204, 204, 0.251);
+}
+.quantumWizDialogPaperdialogTitleBarFullScreen .isFocused.quantumWizDialogPaperdialogCloseButton {
+	background-color: rgba(204, 204, 204, 0.251);
+}
+.quantumWizDialogPaperdialogTitleBarFullScreen .quantumWizDialogPaperdialogDialogButton > .quantumWizButtonPaperbuttonRipple {
+	background-image: radial-gradient(circle farthest-side, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0) 100%);
+}
+.quantumWizDialogPaperdialogTitleBarFullScreen .quantumWizDialogPaperdialogCloseButton > .quantumWizButtonPapericonbuttonRipple {
+	background-image: radial-gradient(circle farthest-side, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0) 100%);
+}
+.quantumWizDialogPaperdialogTitleBarFullScreen .isDisabled.quantumWizDialogPaperdialogDialogButton {
+	color: rgba(255, 255, 255, 0.502); fill: rgba(255, 255, 255, 0.502);
+}
+.quantumWizDialogPaperdialogTitleBarFullScreen .isDisabled.quantumWizDialogPaperdialogCloseButton {
+	color: rgba(255, 255, 255, 0.502); fill: rgba(255, 255, 255, 0.502);
+}
+.docssharedWizMagiclistItemEl {
+	font-size: 13px; font-weight: 400; display: flex; min-height: 48px; align-items: center; box-align: center;
+}
+.docssharedWizMagiclistItemEl .exportUnderline {
+	margin-top: 4px; visibility: hidden;
+}
+.docssharedWizMagiclistItemEl:hover .exportUnderline {
+	visibility: visible;
+}
+.isFocused.docssharedWizMagiclistItemInput .exportUnderline {
+	visibility: visible;
+}
+.docssharedWizMagiclistItemItemLabel {
+	display: flex; flex-shrink: 0; align-items: center; box-align: center;
+}
+.docssharedWizMagiclistItemControlContainer {
+	margin-right: 12px;
+}
+.docssharedWizMagiclistItemRemoveButton {
+	opacity: 0.5;
+}
+.docssharedWizMagiclistItemRemoveButtonSpacer {
+	width: 48px;
+}
+.docssharedWizMagiclistItemInput {
+	width: 100%;
+}
+.docssharedWizMagiclistItemInput input {
+	width: 100%; font-size: 13px;
+}
+.docssharedWizMagiclistItemInputContainer {
+	margin-top: 8px; min-width: 0px; flex-grow: 1; box-flex: 1;
+}
+.docssharedWizMagiclistItemAddChoice.docssharedWizMagiclistItemInputContainer {
+	margin-right: 4px; flex-grow: 0; box-flex: 0;
+}
+.docssharedWizMagiclistItemAddChoice.docssharedWizMagiclistItemInputContainer .exportLabel {
+	color: rgba(0, 0, 0, 0.54); font-size: 13px; position: static;
+}
+.docssharedWizMagiclistItemAddChoice input {
+	top: 0px; position: absolute; cursor: pointer;
+}
+.docssharedWizMagiclistItemAddOther {
+	text-align: center; color: rgb(66, 133, 244); text-transform: uppercase; font-weight: 500; margin-left: 4px; cursor: pointer; tap-highlight-color: transparent;
+}
+.docssharedWizMagiclistItemCoreItemContentContainer {
+	display: flex; flex-grow: 1; align-items: center; box-align: center; box-flex: 1;
+}
+.docssharedWizMagiclistItemDragHandleContainer {
+	width: 42px; height: 24px; visibility: hidden;
+}
+.docssharedWizMagiclistItemEl:hover .docssharedWizMagiclistItemDragHandleContainer {
+	visibility: visible;
+}
+.dragger-el .docssharedWizMagiclistItemDragHandleContainer {
+	visibility: visible;
+}
+.touch .docssharedWizMagiclistItemIsFocused.docssharedWizMagiclistItemEl .docssharedWizMagiclistItemDragHandleContainer {
+	visibility: visible;
+}
+.dragger-el .docssharedWizMagiclistItemCoreItemContentContainer {
+	background: rgb(255, 255, 255); opacity: 0.7; box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12), 0px 1px 3px 0px rgba(0,0,0,0.2);
+}
+.docssharedWizMagiclistItemDragHandleContainer .magiclist-draghandle {
+	text-align: center; cursor: move; opacity: 0.3;
+}
+.docssharedWizOmnilistMorselRoot {
+	display: flex; align-items: center; box-align: center;
+}
+.docssharedWizOmnilistMorselDeleteButton {
+	opacity: 0.3; fill: #000;
+}
+.ds-hc-white .docssharedWizOmnilistMorselDeleteButton {
+	opacity: 1;
+}
+.ds-hc-black .docssharedWizOmnilistMorselDeleteButton {
+	opacity: 1; fill: white;
+}
+.docssharedWizOmnilistMorselValue {
+	flex-grow: 1; box-flex: 1;
+}
+.docssharedWizOmnilistMorselValueInput {
+	flex-grow: 1; box-flex: 1;
+}
+.docssharedWizOmnilistItemRoot {
+	background-color: white;
+}
+.docssharedWizOmnilistItemPrimaryContent {
+	display: flex; flex-wrap: wrap; align-items: center; box-align: center;
+}
+.docssharedWizOmnilistItemRoot .omnilist-draghandle {
+	width: 42px; font-weight: bold; display: flex; visibility: hidden; cursor: move; opacity: 0.3; flex-direction: column; flex-shrink: 0; align-items: center; box-align: center; box-orient: vertical;
+}
+.ds-hc-white .docssharedWizOmnilistItemRoot .omnilist-draghandle {
+	opacity: 1; fill: black;
+}
+.ds-hc-black .docssharedWizOmnilistItemRoot .omnilist-draghandle {
+	opacity: 1; fill: white;
+}
+.docssharedWizOmnilistItemRoot:hover .omnilist-draghandle {
+	visibility: visible;
+}
+.omnilist-dragging.docssharedWizOmnilistItemRoot {
+	opacity: 0.7; box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12), 0px 1px 3px 0px rgba(0,0,0,0.2);
+}
+.quantumWizProgressEl {
+	transition:opacity 250ms linear; width: 100%; height: 4px; overflow: hidden; position: relative; transform: translateZ(0px);
+}
+.quantumWizProgressBuffer {
+	position: absolute;
+}
+.quantumWizProgressBufferingDots {
+	width: 100%; height: 100%; position: absolute;
+}
+.quantumWizProgressRect {
+	width: 100%; height: 100%; position: absolute;
+}
+.quantumWizProgressRectInner {
+	width: 100%; height: 100%; position: absolute;
+}
+.quantumWizProgressBuffer {
+	transform-origin: left top; transition:transform 250ms;
+}
+.quantumWizProgressRect {
+	transform-origin: left top; transition:transform 250ms; animation:none;
+}
+.quantumWizProgressRectInner {
+	animation:none;
+}
+.quantumWizProgressBuffer {
+	transform-origin: left top; transition:transform 250ms; width: 100%; height: 100%; background-color: rgb(230, 230, 230);
+}
+.quantumWizProgressRectPrimary {
+	transform: scaleX(0);
+}
+.quantumWizProgressRectAuxiliary {
+	visibility: hidden;
+}
+.quantumWizProgressRectInner {
+	display: inline-block; background-color: rgb(0, 0, 0);
+}
+.quantumWizProgressBufferingDots {
+	visibility: hidden; background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20version%3D%271.1%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20xmlns%3Axlink%3D%27http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%27%20x%3D%270px%27%20y%3D%270px%27%20enable-background%3D%27new%200%200%205%202%27%20xml%3Aspace%3D%27preserve%27%20viewBox%3D%270%200%205%202%27%20preserveAspectRatio%3D%27none%20slice%27%3E%3Ccircle%20cx%3D%271%27%20cy%3D%271%27%20r%3D%271%27%20fill%3D%27%23e6e6e6%27%2F%3E%3C%2Fsvg%3E"); background-repeat: repeat-x; background-size: 10px 4px;
+}
+.isIndeterminate.quantumWizProgressEl .quantumWizProgressRect {
+	transition:none;
+}
+.isIndeterminate.quantumWizProgressEl .quantumWizProgressRectPrimary {
+	animation:primary-indeterminate-translate 2s linear infinite;
+}
+.isIndeterminate.quantumWizProgressEl .quantumWizProgressRectPrimary > .quantumWizProgressRectInner {
+	animation:primary-indeterminate-scale 2s linear infinite;
+}
+.isIndeterminate.quantumWizProgressEl .quantumWizProgressRectAuxiliary {
+	animation:auxiliary-indeterminate-translate 2s linear infinite; visibility: visible;
+}
+.isIndeterminate.quantumWizProgressEl .quantumWizProgressRectAuxiliary > .quantumWizProgressRectInner {
+	animation:auxiliary-indeterminate-scale 2s linear infinite;
+}
+.isIE.isIndeterminate.quantumWizProgressEl .quantumWizProgressRectInner {
+	transform: scaleX(0.45);
+}
+.isIE.isIndeterminate.quantumWizProgressEl .quantumWizProgressRectAuxiliary {
+	animation:none; visibility: hidden;
+}
+.isIE.isIndeterminate.quantumWizProgressEl .quantumWizProgressRectPrimary {
+	animation:indeterminate-translate-ie 2s ease-out infinite;
+}
+.isIE.isIndeterminate.quantumWizProgressEl .quantumWizProgressRectPrimary > .quantumWizProgressRectInner {
+	animation:none;
+}
+.isIE.isIndeterminate.quantumWizProgressEl .quantumWizProgressRectAuxiliary > .quantumWizProgressRectInner {
+	animation:none;
+}
+.isReversed.quantumWizProgressEl .quantumWizProgressBuffer {
+	transform-origin: right center; right: 0px;
+}
+.isReversed.quantumWizProgressEl .quantumWizProgressRect {
+	transform-origin: right center; right: 0px;
+}
+.isReversed.quantumWizProgressEl .quantumWizProgressRectPrimary {
+	animation-name: primary-indeterminate-translate-reverse;
+}
+.isReversed.quantumWizProgressEl .quantumWizProgressRectAuxiliary {
+	animation-name: auxiliary-indeterminate-translate-reverse;
+}
+.isIE.isReversed.quantumWizProgressEl .quantumWizProgressRectPrimary {
+	animation-name: indeterminate-translate-reverse-ie;
+}
+.isClosed.quantumWizProgressEl {
+	opacity: 0;
+}
+.isInactive.quantumWizProgressEl .quantumWizProgressRectAuxiliary {
+	animation-play-state: paused;
+}
+.isInactive.quantumWizProgressEl .quantumWizProgressRectPrimary {
+	animation-play-state: paused;
+}
+.isInactive.quantumWizProgressEl .quantumWizProgressRectAuxiliary > .quantumWizProgressRectInner {
+	animation-play-state: paused;
+}
+.isInactive.quantumWizProgressEl .quantumWizProgressRectPrimary > .quantumWizProgressRectInner {
+	animation-play-state: paused;
+}
+.isBuffering.quantumWizProgressEl .quantumWizProgressBufferingDots {
+	animation:buffering 250ms linear infinite; visibility: visible;
+}
+.isReversed.isBuffering.quantumWizProgressEl .quantumWizProgressBufferingDots {
+	animation:buffering-reverse 250ms linear infinite;
+}
+.quantumWizAutocompleteInputBox {
+	flex:1 1 0px; display: flex;
+}
+.quantumWizAutocompleteInputText {
+	flex:1 1 0px; display: flex;
+}
+.quantumWizAutocompleteAutocomplete {
+	flex:1 1 0px;
+}
+.quantumWizAutocompleteIsInline {
+	display: inline;
+}
+.quantumWizAutocompleteIsInline .quantumWizAutocompleteInputBox {
+	display: inline;
+}
+.quantumWizAutocompleteIsInline .quantumWizAutocompleteInputText {
+	display: inline;
+}
+.quantumWizAutocompleteLoadingWrapper {
+	left: 1px; height: 4px; right: 1px; bottom: 1px; display: none; position: absolute; -ms-overflow-x: hidden; background-color: rgb(255, 255, 255);
+}
+.loading.quantumWizAutocompleteAutocomplete .quantumWizAutocompleteLoadingWrapper {
+	display: block;
+}
+.quantumWizAutocompleteAutocompleteDropdown {
+	left: 0px; right: 0px; position: absolute; z-index: 1; -ms-overflow-y: auto;
+}
+[data-childcount='0'].quantumWizAutocompleteAutocompleteDropdown {
+	display: none;
+}
+[data-expanded='false'].quantumWizAutocompleteAutocompleteDropdown {
+	display: none;
+}
+.quantumWizAutocompleteAutocompleteWithTextInputDropdown {
+	top: -24px; position: relative;
+}
+.quantumWizAutocompleteInputText {
+	position: relative;
+}
+.quantumWizAutocompleteInputHint {
+	left: 0px; width: 100%; position: absolute; opacity: 0.3;
+}
+.quantumWizAutocompleteInputText {
+	font: inherit; color: inherit; font-size-adjust: inherit; font-stretch: inherit; background-color: transparent;
+}
+.quantumWizAutocompleteInputHint {
+	font: inherit; color: inherit; font-size-adjust: inherit; font-stretch: inherit; background-color: transparent;
+}
+.quantumWizAutocompleteInputText::-ms-clear {
+	display: none;
+}
+.quantumWizAutocompleteInputBox {
+	height: 100%;
+}
+.quantumWizAutocompleteInputText {
+	height: 100%;
+}
+.quantumWizAutocompleteInputHint {
+	height: 100%;
+}
+.quantumWizAutocompleteDefaultAutocompleteItem {
+	white-space: nowrap; -ms-overflow-x: hidden; -ms-text-overflow: ellipsis;
+}
+.quantumWizAutocompleteAutocompleteItem {
+	cursor: default;
+}
+.quantumWizAutocompletePaperautocompletePaperAutocomplete {
+	font: 400 16px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+}
+.quantumWizAutocompletePaperautocompletePaperAutocomplete .exportAutocompleteDropdown {
+	font: 400 16px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+}
+.quantumWizAutocompletePaperautocompletePaperAutocompleteItem {
+	font: 400 16px/normal Roboto, RobotoDraft, Helvetica, Arial, sans-serif; color: rgb(34, 34, 34); font-size-adjust: none; font-stretch: normal;
+}
+.quantumWizAutocompletePaperautocompletePaperAutocomplete {
+	height: 34px; line-height: 34px; display: inline-block;
+}
+.quantumWizAutocompletePaperautocompletePaperAutocompleteWithTextInput {
+	height: auto; display: inline-block;
+}
+.quantumWizAutocompletePaperautocompletePaperAutocomplete .exportAutocompleteInput {
+	border-width: 0px 1px; border-style: solid; border-color: transparent;
+}
+.quantumWizAutocompletePaperautocompletePaperAutocompleteItem {
+	padding: 0px 16px; box-sizing: border-box;
+}
+.quantumWizAutocompletePaperautocompletePaperAutocomplete .exportAutocompleteInput {
+	padding: 0px 16px; box-sizing: border-box;
+}
+.quantumWizAutocompletePaperautocompletePaperAutocomplete .exportAutocompleteDropdown {
+	padding: 8px 0px; border-radius: 0px 0px 2px 2px; border: 1px solid rgba(0, 0, 0, 0.2); border-image: none; box-sizing: border-box; box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12), 0px 5px 5px -3px rgba(0,0,0,0.2); background-color: rgb(255, 255, 255);
+}
+.quantumWizAutocompletePaperautocompletePaperAutocompleteItem {
+	line-height: 40px;
+}
+[aria-selected='true'].quantumWizAutocompletePaperautocompletePaperAutocompleteItem {
+	background-color: rgb(238, 238, 238);
+}
+.quantumWizAutocompletePaperautocompletePaperAutocompleteSeparator {
+	margin: 7px 0px; border-top-color: rgb(218, 218, 218); border-top-width: 1px; border-top-style: solid;
+}
+.quantumWizAutocompletePaperautocompleteDefaultPaperAutocompleteItem {
+	white-space: nowrap; -ms-overflow-x: hidden; -ms-text-overflow: ellipsis;
+}
+.quantumWizButtonFloatingactionbuttonEl {
+	border-radius: 50%; border: currentColor; border-image: none; width: 56px; height: 56px; text-align: center; overflow: hidden; display: inline-block; position: relative; z-index: 4000; cursor: pointer; box-sizing: content-box; fill: #fff; box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12), 0px 3px 5px -1px rgba(0,0,0,0.2); background-color: rgb(0, 0, 0);
+}
+.quantumWizButtonFloatingactionbuttonHoverOverlay {
+	background: rgba(255, 255, 255, 0.2); left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; position: absolute;
+}
+.quantumWizButtonFloatingactionbuttonEl:hover {
+	box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12), 0px 5px 5px -3px rgba(0,0,0,0.2);
+}
+.quantumWizButtonFloatingactionbuttonEl:hover .quantumWizButtonFloatingactionbuttonHoverOverlay {
+	display: block;
+}
+.isActive.quantumWizButtonFloatingactionbuttonEl {
+	box-shadow: 0px 12px 17px 2px rgba(0,0,0,0.14), 0px 5px 22px 4px rgba(0,0,0,0.12), 0px 7px 8px -4px rgba(0,0,0,0.2);
+}
+.isActive.quantumWizButtonFloatingactionbuttonEl .quantumWizButtonFloatingactionbuttonHoverOverlay {
+	display: block;
+}
+.isDisabled.quantumWizButtonFloatingactionbuttonEl {
+	background: rgba(153, 153, 153, 0.102); color: rgba(68, 68, 68, 0.502); cursor: default; fill: rgba(68, 68, 68, 0.502); box-shadow: none;
+}
+.isDisabled.quantumWizButtonFloatingactionbuttonEl:hover {
+	opacity: 1;
+}
+.isDisabled.quantumWizButtonFloatingactionbuttonEl .quantumWizButtonFloatingactionbuttonHoverOverlay {
+	display: none;
+}
+.quantumWizButtonFloatingactionbuttonEl:focus {
+	box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12), 0px 5px 5px -3px rgba(0,0,0,0.2);
+}
+.quantumWizButtonFloatingactionbuttonEl:focus .quantumWizButtonFloatingactionbuttonHoverOverlay {
+	display: block;
+}
+.quantumWizButtonFloatingactionbuttonContent {
+	transition:0.3s ease-in-out; left: 16px; top: 16px; width: 24px; height: 24px; display: inline-block; position: absolute; transform: rotate(0deg);
+}
+.isHidden.quantumWizButtonFloatingactionbuttonContent {
+	transition:0.3s ease-in-out; visibility: hidden; opacity: 0; transform: rotate(225deg);
+}
+.rotate.quantumWizButtonFloatingactionbuttonContent {
+	transition:0.3s ease-in-out; transform: rotate(135deg);
+}
+.quantumWizButtonFloatingactionbuttonMini {
+	width: 40px; height: 40px;
+}
+.quantumWizButtonFloatingactionbuttonMini .quantumWizButtonFloatingactionbuttonContent {
+	left: 8px; top: 8px;
+}
+.quantumWizButtonFloatingactionbuttonRipple {
+	transition:opacity 0.2s, visibility 0s 0.2s, -webkit-transform 0s 0.2s; left: 0px; top: 0px; visibility: hidden; position: absolute; opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(0); background-image: radial-gradient(circle farthest-side, rgba(204, 204, 204, 0.251), rgba(204, 204, 204, 0.251) 80%, rgba(204, 204, 204, 0) 100%); background-size: cover;
+}
+.isActive.quantumWizButtonFloatingactionbuttonEl > .quantumWizButtonFloatingactionbuttonRipple {
+	visibility: visible; opacity: 1; transform: translate(-50%, -50%) scale(2.2);
+}
+.isUndragged.isActive.quantumWizButtonFloatingactionbuttonEl > .quantumWizButtonFloatingactionbuttonRipple {
+	transition:transform 0.3s cubic-bezier(0, 0, 0.2, 1), opacity 0.2s cubic-bezier(0, 0, 0.2, 1);
+}
+.isDeactivating.quantumWizButtonFloatingactionbuttonEl > .quantumWizButtonFloatingactionbuttonRipple {
+	visibility: visible; transform: translate(-50%, -50%) scale(2.2);
+}
+.quantumWizCommonModalBackground {
+	transition:opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0.15s; left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 5000; opacity: 0; pointer-events: none; background-color: rgba(0, 0, 0, 0.502);
+}
+.isOpen.quantumWizCommonModalBackground {
+	transition:opacity 0.05s cubic-bezier(0.4, 0, 0.2, 1); opacity: 1; pointer-events: all;
+}
+.quantumWizCommonModalBackgroundTop {
+	height: 3em; display: block;
+}
+.quantumWizCommonModalBackgroundBottom {
+	height: 3em; display: block;
+}
+.quantumWizDatepickerPaperdatepickerWidgetSize {
+	display: inline-block;
+}
+.quantumWizDatepickerPaperdatepickerHeader {
+	padding: 14px 24px; color: rgb(255, 255, 255); background-color: rgb(0, 150, 136);
+}
+.quantumWizDatepickerPaperdatepickerHeader .quantumWizDatepickerPaperdatepickerLayoutTr {
+	height: auto;
+}
+.quantumWizDatepickerPaperdatepickerHeaderDate {
+	font-size: 200%; font-weight: bold;
+}
+.quantumWizDatepickerPaperdatepickerLayoutTable {
+	width: 100%; display: table; align: center;
+}
+.quantumWizDatepickerPaperdatepickerLayoutTr {
+	height: 40px; display: table-row;
+}
+.quantumWizDatepickerPaperdatepickerLayoutTd {
+	vertical-align: middle; display: table-cell; min-width: 40px;
+}
+.quantumWizDatepickerPaperdatepickerBody {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.quantumWizDatepickerPaperdatepickerBodyCurrentmonth {
+	text-align: center;
+}
+.quantumWizDatepickerPaperdatepickerNextMonth {
+	text-align: right;
+}
+.quantumWizDatepickerPaperdatepickerArrow {
+	margin-top: 6px; fill: none; stroke: rgba(0, 0, 0, 0.54); stroke-width: 2;
+}
+.quantumWizDatepickerPaperdatepickerArrowButton {
+	vertical-align: middle;
+}
+.quantumWizDatepickerPaperdatepickerDate {
+	border-radius: 50%; width: 2em; height: 2em; text-align: center; vertical-align: middle; cursor: pointer;
+}
+.quantumWizDatepickerPaperdatepickerYear {
+	height: 2em; text-align: center;
+}
+.isSelectedDate.quantumWizDatepickerPaperdatepickerDate {
+	color: rgb(255, 255, 255); background-color: rgb(0, 150, 136);
+}
+.isToday.quantumWizDatepickerPaperdatepickerDate {
+	color: rgb(0, 150, 136);
+}
+.isSelectedYear.quantumWizDatepickerPaperdatepickerYear {
+	color: rgb(0, 150, 136); font-size: 150%;
+}
+.quantumWizDatepickerPaperdatepickerCalendarView {
+	padding: 8px 16px 16px; font-size: 12px; font-weight: 400;
+}
+.quantumWizDatepickerPaperdatepickerDaysOfWeek {
+	color: rgb(158, 158, 158);
+}
+.isDark.quantumWizDatepickerPaperdatepickerHeader {
+	background-color: rgb(97, 97, 97);
+}
+.isDark.quantumWizDatepickerPaperdatepickerBody {
+	color: rgb(255, 255, 255); background-color: rgb(66, 66, 66);
+}
+.isDark.quantumWizDatepickerPaperdatepickerArrow {
+	fill: #424242; stroke: #fff;
+}
+.isSelectedDate.isDark.quantumWizDatepickerPaperdatepickerDate {
+	color: rgb(0, 0, 0);
+}
+.isToday.isDark.quantumWizDatepickerPaperdatepickerDate {
+	color: rgb(178, 223, 219);
+}
+.isSelectedYear.isDark.quantumWizDatepickerPaperdatepickerYear {
+	color: rgb(178, 223, 219);
+}
+.quantumWizDrawerPaperdrawerEl {
+	height: 100%; overflow: hidden; position: relative;
+}
+.quantumWizDrawerPaperdrawerBackdrop {
+	transition:background-color 300ms ease-out; left: 0px; top: 0px; height: 100%; right: 0px; bottom: 0px; position: absolute; z-index: 101; background-color: rgba(0, 0, 0, 0);
+}
+.isExpanded.quantumWizDrawerPaperdrawerEl > .quantumWizDrawerPaperdrawerBackdrop {
+	background-color: rgba(0, 0, 0, 0.12);
+}
+.quantumWizDrawerPaperdrawerMainContent {
+	transition:padding 300ms ease-out; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: auto; position: absolute;
+}
+.quantumWizDrawerPaperdrawerLeftDrawerDragger {
+	width: 15px; height: 100%; position: absolute;
+}
+.quantumWizDrawerPaperdrawerRightDrawerDragger {
+	width: 15px; height: 100%; right: 0px; position: absolute;
+}
+.quantumWizDrawerPaperdrawerLeftDrawerDragger {
+	left: 0px;
+}
+@media screen and (min-width:841px)
+{
+.quantumWizDrawerPaperdrawerBackdrop {
+	visibility: hidden;
+}
+.quantumWizDrawerPaperdrawerLeftPinnable {
+	padding-left: 256px;
+}
+.quantumWizDrawerPaperdrawerRightPinnable {
+	padding-right: 256px;
+}
+}
+@media screen and (max-width:840px)
+{
+.quantumWizDrawerPaperdrawerEl {
+	padding-left: 0px;
+}
+}
+.quantumWizDrawerSidedrawerEl {
+	transition:transform 300ms ease-out; top: 0px; height: 100%; overflow: auto; position: absolute; z-index: 102; will-change: transform;
+}
+[aria-hidden=true].quantumWizDrawerSidedrawerEl {
+	visibility: hidden;
+}
+.quantumWizDrawerSidedrawerShadow {
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.25);
+}
+.isExpanded.quantumWizDrawerSidedrawerShadow {
+	box-shadow: 0px 8px 17px rgba(0,0,0,0.2);
+}
+.quantumWizDrawerSidedrawerRight {
+	right: 0px;
+}
+.quantumWizDrawerSidedrawerLeft {
+	left: 0px; transform: translate3d(-104%, 0px, 0px);
+}
+.quantumWizDrawerSidedrawerRight {
+	transform: translate3d(104%, 0px, 0px);
+}
+.isExpanded.quantumWizDrawerSidedrawerEl {
+	transform: translate3d(0px, 0px, 0px);
+}
+@media screen and (min-width:841px)
+{
+.quantumWizDrawerSidedrawerEl.quantumWizDrawerSidedrawerPinnable {
+	transform: translate3d(0px, 0px, 0px);
+}
+}
+@media screen and (max-width:312px)
+{
+.isExpanded.quantumWizDrawerSidedrawerEl {
+	right: 56px;
+}
+}
+@media screen and (min-width:313px)
+{
+.quantumWizDrawerSidedrawerEl {
+	width: 256px;
+}
+}
+.quantumWizCardPapercardEl {
+	margin: 10px 0px; border-radius: 2px; display: block; position: relative; box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12), 0px 1px 5px 0px rgba(0,0,0,0.2); background-color: rgb(250, 250, 250);
+}
+.quantumWizCardPapercardResting {
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12), 0px 1px 5px 0px rgba(0,0,0,0.2);
+}
+.quantumWizCardPapercardRaised {
+	box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12), 0px 5px 5px -3px rgba(0,0,0,0.2);
+}
+.quantumWizFeaturediscoveryFeaturePromoCard {
+	border-radius: 2px; transition:left 150ms cubic-bezier(0.4, 0, 0.2, 1), right 150ms cubic-bezier(0.4, 0, 0.2, 1), background-color cubic-bezier(0.4, 0, 0.2, 1); overflow: hidden; display: flex; position: fixed; box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12), 0px 2px 4px -1px rgba(0,0,0,0.2); background-color: transparent;
+}
+.isOpen.quantumWizFeaturediscoveryFeaturePromoCard {
+	transition-delay: 0ms, 0ms, 255ms; background-color: rgb(250, 250, 250);
+}
+[data-orientation='column'].quantumWizFeaturediscoveryFeaturePromoCard {
+	flex-direction: column;
+}
+.quantumWizFeaturediscoveryFeatureButtonArea {
+	width: 72px; height: 72px; display: flex; justify-content: center; align-items: center; box-align: center; box-pack: center;
+}
+.quantumWizFeaturediscoveryFeatureButtonContainer {
+	position: relative;
+}
+.quantumWizFeaturediscoveryFeatureButtonContainer > .exportIcon {
+	margin-bottom: -4px;
+}
+.quantumWizFeaturediscoveryFeatureSplash {
+	border-radius: 50%; transition:opacity 90ms linear 60ms, transform 225ms cubic-bezier(0.4, 0, 0.2, 1); width: 100%; height: 100%; position: absolute; z-index: 1; content: ""; transform: scale(0.5); background-color: rgb(66, 133, 244);
+}
+.quantumWizFeaturediscoveryFeatureBackground {
+	border-radius: 50%; transition:opacity 90ms linear 60ms, transform 225ms cubic-bezier(0.4, 0, 0.2, 1); width: 100%; height: 100%; position: absolute; content: ""; transform: scale(0.5);
+}
+.quantumWizFeaturediscoveryFeatureCustomIcon {
+	position: relative; z-index: 1;
+}
+.quantumWizFeaturediscoveryFeatureBackground {
+	z-index: -1; background-color: rgb(250, 250, 250);
+}
+.isOpen.quantumWizFeaturediscoveryFeaturePromoCard .Splash {
+	transition-duration: 0ms, 300ms; transition-delay: 0ms, 0ms;
+}
+.isOpen.quantumWizFeaturediscoveryFeaturePromoCard .quantumWizFeaturediscoveryFeatureBackground {
+	transition-duration: 0ms, 255ms; transition-delay: 0ms, 45ms;
+}
+[data-orientation='column'][data-bottom='true'].quantumWizFeaturediscoveryFeaturePromoCard .quantumWizFeaturediscoveryFeatureActionContainer {
+	order: 1;
+}
+[data-orientation='row'][data-right='true'].quantumWizFeaturediscoveryFeaturePromoCard .quantumWizFeaturediscoveryFeatureActionContainer {
+	order: 1;
+}
+[data-orientation='row'][data-bottom='true'].quantumWizFeaturediscoveryFeaturePromoCard .quantumWizFeaturediscoveryFeatureButtonArea {
+	align-self: flex-end; -ms-align-self: flex-end;
+}
+.quantumWizFeaturediscoveryFeatureIcon {
+	fill: black; transition-property: opacity, transform, height, width, top, left, fill; transition-duration: 0ms, 120ms, 345ms, 270ms, 120ms, 120ms, 120ms, 0ms; transition-delay: 180ms, 120ms, 15ms, 0ms, 50ms, 50ms, 180ms;
+}
+.isOpen.quantumWizFeaturediscoveryFeaturePromoCard .quantumWizFeaturediscoveryFeatureIcon {
+	opacity: 1; fill: white; transition-duration: 15ms, 15ms, 225ms, 270ms, 120ms, 120ms, 0ms; transition-delay: 0ms, 225ms, 45ms, 30ms, 45ms, 45ms, 0ms;
+}
+.quantumWizFeaturediscoveryFeatureCardText {
+	padding: 25px; flex:1 1 auto; display: flex; opacity: 0; transition-property: opacity; transition-duration: 75ms; transition-delay: 0ms; flex-direction: column;
+}
+.quantumWizFeaturediscoveryFeatureDismiss {
+	align-self: flex-start; -ms-align-self: flex-start;
+}
+[data-right='true'].quantumWizFeaturediscoveryFeaturePromoCard .quantumWizFeaturediscoveryFeatureCardText {
+	padding-right: 53px;
+}
+[data-right='false'].quantumWizFeaturediscoveryFeaturePromoCard .quantumWizFeaturediscoveryFeatureCardText {
+	padding-left: 53px;
+}
+[data-right='true'][data-orientation='column'].quantumWizFeaturediscoveryFeaturePromoCard .quantumWizFeaturediscoveryFeatureCardText {
+	padding-right: 30px;
+}
+[data-right='false'][data-orientation='column'].quantumWizFeaturediscoveryFeaturePromoCard .quantumWizFeaturediscoveryFeatureCardText {
+	padding-left: 30px;
+}
+.isOpen.quantumWizFeaturediscoveryFeaturePromoCard .quantumWizFeaturediscoveryFeatureCardText {
+	opacity: 1; transition-duration: 45ms; transition-delay: 180ms;
+}
+.quantumWizFeaturediscoveryFeatureActionContainer {
+	display: flex;
+}
+.quantumWizFeaturediscoveryFeatureActionArea {
+	flex:1 1 auto; display: flex;
+}
+[data-right='false'].quantumWizFeaturediscoveryFeaturePromoCard .quantumWizFeaturediscoveryFeatureActionArea {
+	order: 1;
+}
+[data-right='true'].quantumWizFeaturediscoveryFeaturePromoCard .quantumWizFeaturediscoveryFeatureActionArea {
+	justify-content: flex-end; box-pack: end;
+}
+.quantumWizFeaturehighlightInnerCircle {
+	background-color: rgb(255, 255, 255);
+}
+.quantumWizFeaturehighlightRadialPulse {
+	background-color: rgb(255, 255, 255);
+}
+.quantumWizFeaturehighlightOuterHighlight {
+	background-color: rgb(33, 150, 243);
+}
+.quantumWizFeaturehighlightCallout {
+	color: rgb(255, 255, 255);
+}
+.quantumWizPullrefreshSpinnerContent {
+	fill: #4285f4; stroke: #4285f4;
+}
+.quantumWizPullrefreshSpinnerSpinner {
+	width: 28px; height: 28px; display: none; stroke-width: 3px;
+}
+.quantumWizPullrefreshSpinnerSvgWrapper {
+	width: 28px; height: 28px;
+}
+.quantumWizPullrefreshSpinnerMessageContainer {
+	width: 0px; height: 0px; overflow: hidden; position: absolute;
+}
+.isActive.quantumWizPullrefreshSpinnerSpinner {
+	display: inline-block; animation-name: quantumWizSpinnerRotate; animation-duration: 1568.63ms; animation-timing-function: linear; animation-iteration-count: infinite;
+}
+.isStationary.quantumWizPullrefreshSpinnerSpinner {
+	display: inline-block;
+}
+.isActive.quantumWizPullrefreshSpinnerSpinner .quantumWizPullrefreshSpinnerArrowPath {
+	fill: none; stroke: none;
+}
+.isWarmdown.quantumWizPullrefreshSpinnerSpinner .quantumWizPullrefreshSpinnerPath {
+	stroke-width: 0;
+}
+.quantumWizPullrefreshSpinnerPath {
+	transform-origin: 14px 14px; transition:stroke-width 400ms; fill: none; stroke-dasharray: 58.9,58.9; stroke-dashoffset: 58.9; transform: rotate(0deg);
+}
+.isStationary.quantumWizPullrefreshSpinnerSpinner .quantumWizPullrefreshSpinnerPath {
+	transition-duration: 0s;
+}
+.startFromFull.quantumWizPullrefreshSpinnerSpinner .quantumWizPullrefreshSpinnerPath {
+	animation-delay: -466ms, -466ms, -466ms;
+}
+.isActive.quantumWizPullrefreshSpinnerSpinner .quantumWizPullrefreshSpinnerPath {
+	animation-name: quantumWizSpinnerFillUnfill, quantumWizSpinnerRot, quantumWizSpinnerColors; animation-duration: 1333ms, 5332ms, 5332ms; animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1), steps(4, end), linear; animation-iteration-count: infinite, infinite, infinite; animation-fill-mode: forwards;
+}
+.quantumWizPullrefreshPullRefresh {
+	position: relative;
+}
+.quantumWizPullrefreshSpinnerWrapper {
+	left: 0px; top: 0px; right: 0px; position: absolute; z-index: 1; pointer-events: none;
+}
+[data-state='snapping'].quantumWizPullrefreshSpinnerWrapper {
+	transition:transform 200ms;
+}
+[data-state='cancelled'].quantumWizPullrefreshSpinnerWrapper {
+	transition:transform 200ms;
+}
+.quantumWizPullrefreshCircle {
+	margin: 0px auto; padding: 15px; border-radius: 50%; border: 1px solid rgb(224, 224, 224); transition:opacity 400ms; border-image: none; width: 28px; height: 28px; display: block; box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2); transform: scale(0.7); background-color: rgb(250, 250, 250);
+}
+[data-state='resting'].quantumWizPullrefreshSpinnerWrapper .quantumWizPullrefreshCircle {
+	transition:transform 150ms; transform: scale(0);
+}
+[data-state='cooldown'].quantumWizPullrefreshSpinnerWrapper .quantumWizPullrefreshCircle {
+	transition:transform 150ms; transform: scale(0);
+}
+.quantumWizPullrefreshSpinnerWrapper .quantumWizPullrefreshSpinner {
+	stroke-width: 3.6px; transform: translateZ(1px);
+}
+[data-past-threshold='false'].quantumWizPullrefreshSpinnerWrapper .quantumWizPullrefreshSpinner {
+	opacity: 0.3;
+}
+.quantumIconsIcon {
+	text-transform: none; line-height: 1; letter-spacing: normal; font-family: "Material Icons Extended"; font-size: 24px; font-style: normal; font-weight: normal; display: inline-block; direction: ltr; -ms-word-wrap: normal; text-rendering: optimizeLegibility;
+}
+html[dir='rtl'] .quantumIconsRtlIcon {
+	transform: scaleX(-1);
+}
+.quantumWizStepperHorizontalHeaders {
+	height: 24px;
+}
+.quantumWizStepperHeader {
+	height: 24px; display: inline-block;
+}
+.quantumWizStepperHeaderIndex {
+	width: 24px; height: 24px; display: inline-block; position: relative;
+}
+.quantumWizStepperHeaderIndexNumberContainer {
+	background: rgba(0, 0, 0, 0.54); border-radius: 24px; width: 24px; height: 24px; color: rgb(255, 255, 255); font-size: 16px; font-weight: 500; vertical-align: middle; display: inline-block;
+}
+.quantumWizStepperHeaderIndexActive .quantumWizStepperHeaderIndexNumberContainer {
+	background: rgb(59, 120, 231);
+}
+.quantumWizStepperHeaderIndexNumber {
+	left: 7.3px; top: 3px; position: relative;
+}
+.quantumWizStepperHeaderTitle {
+	margin-left: 6px; vertical-align: middle; display: inline-block;
+}
+.quantumWizStepperHeaderConnectorHorizontal {
+	background: rgba(0, 0, 0, 0.38); width: 64px; height: 2px; margin-right: 8px; margin-left: 8px; vertical-align: middle; display: inline-block; position: relative;
+}
+.quantumWizStepperHeaderIndexCompleteContainer .quantumWizStepperHeaderIndexNumberContainer {
+	background: rgb(59, 120, 231);
+}
+.quantumWizStepperHeaderIndexComplete {
+	left: 4px; top: 4px; position: relative;
+}
+.quantumWizStepperHeaderIndexComplete::before {
+	color: rgba(255, 255, 255, 1); text-transform: none; line-height: 1; letter-spacing: normal; font-family: "Material Icons Extended"; font-size: 16px; font-style: normal; font-weight: normal; display: inline-block; direction: ltr; -ms-word-wrap: normal; content: "\e876"; text-rendering: optimizeLegibility;
+}
+.quantumWizToastEl {
+	left: 0px; right: 0px; bottom: 0px; color: rgb(255, 255, 255); font-size: 14px; display: flex; visibility: hidden; position: fixed; z-index: 99999; min-height: 48px; box-sizing: border-box; box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12), 0px 3px 5px -1px rgba(0,0,0,0.2); transform: translate(0px, 100%); flex-direction: column; background-color: rgb(50, 50, 50);
+}
+.quantumWizToastInner {
+	padding: 0px; display: flex; min-height: inherit; flex-direction: row; align-items: center; align-content: center; box-align: center;
+}
+.quantumWizToastText {
+	padding: 14px 24px; line-height: normal; overflow: hidden; -ms-text-overflow: ellipsis; flex-grow: 1; flex-shrink: 1; box-flex: 1;
+}
+.quantumWizToastAction {
+	padding: 14px 24px; color: rgb(238, 255, 65); text-transform: uppercase; font-weight: 500; float: right; display: inline-block; cursor: pointer; flex-grow: 0; flex-shrink: 0; align-self: center; box-flex: 0;
+}
+.quantumWizToastTip {
+	background-color: rgb(66, 133, 244);
+}
+.quantumWizToastOnScreen {
+	transform: translate(0px, 0px);
+}
+@media screen and (min-width:481px)
+{
+.quantumWizToastEl {
+	border-radius: 2px; min-width: 288px; max-width: 568px;
+}
+.quantumWizToastElLeftAligned {
+	left: 24px; right: auto; margin-right: 24px;
+}
+.quantumWizToastElCenterAligned {
+	left: 50%; right: auto; transform: translate(-50%, 100%);
+}
+.quantumWizToastOnScreen.quantumWizToastElLeftAligned {
+	bottom: 24px;
+}
+.quantumWizToastOnScreen.quantumWizToastElCenterAligned {
+	bottom: 0px; transform: translate(-50%, 0px);
+}
+.quantumWizToastInner {
+	padding: 0px;
+}
+.quantumWizToastText {
+	padding-right: 24px;
+}
+}
+@media screen and (max-width:480px)
+{
+.quantumWizToastMultiLine .quantumWizToastText {
+	padding-top: 24px; padding-bottom: 24px;
+}
+.quantumWizToastMultiLine .quantumWizToastAction {
+	padding-top: 24px; padding-bottom: 24px;
+}
+}
+@media screen and (max-width:568px) and (min-width:481px)
+{
+.quantumWizToastEl {
+	max-width: 90%;
+}
+}
+@media screen and (min-width:569px)
+{
+.quantumWizToastEl {
+	max-width: 568px;
+}
+}
+.quantumWizTooltipTooltip {
+	color: rgb(255, 255, 255); visibility: hidden; position: fixed; z-index: 5000; pointer-events: none;
+}
+.quantumWizTooltipBackground {
+	transform-origin: inherit; border-radius: 2px; left: 0px; width: 100%; height: 100%; position: absolute; opacity: 0; transform: scale(0, 0.5); background-color: rgba(97, 97, 97, 0.902);
+}
+.quantumWizTooltipText {
+	padding: 5px 8px 6px; font-size: 10px; font-weight: 500; display: block; position: relative; opacity: 0;
+}
+.isActive.quantumWizTooltipTooltip .quantumWizTooltipBackground {
+	opacity: 1; transform: scale(1);
+}
+.isActive.quantumWizTooltipTooltip .quantumWizTooltipText {
+	opacity: 1;
+}
+.isTouch.quantumWizTooltipTooltip .quantumWizTooltipText {
+	padding: 8px 16px; font-size: 14px;
+}
+.animateIn.quantumWizTooltipTooltip {
+	transition-property: transform; transition-duration: 200ms; transition-timing-function: cubic-bezier(0.24, 1, 0.32, 1);
+}
+.animateIn.quantumWizTooltipTooltip .quantumWizTooltipBackground {
+	transition-property: opacity, transform; transition-duration: 50ms, 200ms; transition-timing-function: linear, cubic-bezier(0.24, 1, 0.32, 1);
+}
+.animateIn.quantumWizTooltipTooltip .quantumWizTooltipText {
+	transition:opacity 150ms cubic-bezier(0, 0, 0.6, 1) 50ms;
+}
+.animateOut.quantumWizTooltipTooltip {
+	transition:opacity 70ms linear;
+}
+sentinel {
+	
+}
